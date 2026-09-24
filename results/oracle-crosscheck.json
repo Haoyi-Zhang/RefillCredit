@@ -1,0 +1,14 @@
+{
+  "all_crosschecks_passed": true,
+  "oracle_boundary": "independent standard-library implementation; at most six slots",
+  "fork_cases": 280,
+  "small_graph_cases": 204,
+  "total_contract_cases": 484,
+  "semantic_comparisons": 764,
+  "snapshot_comparisons": 484,
+  "losing_state_rank_comparisons": 16205,
+  "workers": 1,
+  "cpu_seconds": 0.8639891270000001,
+  "wall_seconds": 0.8648999709998861,
+  "peak_rss_kib": 95012
+}

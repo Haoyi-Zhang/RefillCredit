@@ -1,0 +1,5549 @@
+{
+  "family": "forks",
+  "block": 0,
+  "workers": 1,
+  "randomness": "none; complete stated parameter grids",
+  "cpu_seconds": 0.591902736,
+  "wall_seconds": 0.5943760969998948,
+  "peak_rss_kib": 95400,
+  "case_count": 280,
+  "all_oracle_checks_passed": true,
+  "cases": [
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 5,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 8,
+      "allocator_edges": 5,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 13,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 20,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 8,
+      "allocator_edges": 5,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        1
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 13,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 15,
+      "winning_states": 14,
+      "losing_states": 1,
+      "environment_moves": 20,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 23,
+      "winning_states": 22,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 38,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 13,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 15,
+      "winning_states": 14,
+      "losing_states": 1,
+      "environment_moves": 20,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 23,
+      "winning_states": 23,
+      "losing_states": 0,
+      "environment_moves": 29,
+      "allocator_edges": 38,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 33,
+      "winning_states": 33,
+      "losing_states": 0,
+      "environment_moves": 40,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 20,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 23,
+      "winning_states": 22,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 38,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 33,
+      "winning_states": 33,
+      "losing_states": 0,
+      "environment_moves": 40,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 45,
+      "winning_states": 45,
+      "losing_states": 0,
+      "environment_moves": 53,
+      "allocator_edges": 80,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 5,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 4,
+      "winning_states": 0,
+      "losing_states": 4,
+      "environment_moves": 6,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 1,
+      "max_rank": 3
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 11,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 26,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 4,
+      "winning_states": 0,
+      "losing_states": 4,
+      "environment_moves": 6,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 1,
+      "max_rank": 3
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 11,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        2
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 26,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 43,
+      "winning_states": 37,
+      "losing_states": 6,
+      "environment_moves": 57,
+      "allocator_edges": 70,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 11,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        1
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 26,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 43,
+      "winning_states": 39,
+      "losing_states": 4,
+      "environment_moves": 57,
+      "allocator_edges": 70,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 88,
+      "winning_states": 86,
+      "losing_states": 2,
+      "environment_moves": 110,
+      "allocator_edges": 152,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 26,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 43,
+      "winning_states": 37,
+      "losing_states": 6,
+      "environment_moves": 57,
+      "allocator_edges": 70,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 88,
+      "winning_states": 86,
+      "losing_states": 2,
+      "environment_moves": 110,
+      "allocator_edges": 152,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 2,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 159,
+      "winning_states": 159,
+      "losing_states": 0,
+      "environment_moves": 191,
+      "allocator_edges": 284,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 5,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 4,
+      "winning_states": 0,
+      "losing_states": 4,
+      "environment_moves": 7,
+      "allocator_edges": 3,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 11,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 23,
+      "allocator_edges": 29,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 4,
+      "winning_states": 0,
+      "losing_states": 4,
+      "environment_moves": 7,
+      "allocator_edges": 3,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 9,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 10,
+      "winning_states": 0,
+      "losing_states": 10,
+      "environment_moves": 15,
+      "allocator_edges": 13,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 25,
+      "winning_states": 0,
+      "losing_states": 25,
+      "environment_moves": 31,
+      "allocator_edges": 42,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 11,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 10,
+      "winning_states": 0,
+      "losing_states": 10,
+      "environment_moves": 15,
+      "allocator_edges": 13,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        2
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 19,
+      "winning_states": 0,
+      "losing_states": 19,
+      "environment_moves": 25,
+      "allocator_edges": 30,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 40,
+      "winning_states": 38,
+      "losing_states": 2,
+      "environment_moves": 47,
+      "allocator_edges": 71,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 23,
+      "allocator_edges": 29,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 25,
+      "winning_states": 0,
+      "losing_states": 25,
+      "environment_moves": 31,
+      "allocator_edges": 42,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 40,
+      "winning_states": 38,
+      "losing_states": 2,
+      "environment_moves": 47,
+      "allocator_edges": 71,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 69,
+      "winning_states": 69,
+      "losing_states": 0,
+      "environment_moves": 77,
+      "allocator_edges": 128,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 5,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 5,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 11,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 23,
+      "allocator_edges": 20,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 5,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 9,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 11,
+      "winning_states": 0,
+      "losing_states": 11,
+      "environment_moves": 19,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 47,
+      "allocator_edges": 50,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 11,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 11,
+      "winning_states": 0,
+      "losing_states": 11,
+      "environment_moves": 19,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        2
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 27,
+      "winning_states": 0,
+      "losing_states": 27,
+      "environment_moves": 41,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        3
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 79,
+      "winning_states": 0,
+      "losing_states": 79,
+      "environment_moves": 101,
+      "allocator_edges": 134,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 23,
+      "allocator_edges": 20,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 47,
+      "allocator_edges": 50,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        2
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 79,
+      "winning_states": 0,
+      "losing_states": 79,
+      "environment_moves": 101,
+      "allocator_edges": 134,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 2,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 189,
+      "winning_states": 177,
+      "losing_states": 12,
+      "environment_moves": 221,
+      "allocator_edges": 344,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 6,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 10,
+      "allocator_edges": 5,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 16,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 10,
+      "allocator_edges": 5,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 16,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        1,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 23,
+      "winning_states": 0,
+      "losing_states": 23,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 16,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        2,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 23,
+      "winning_states": 0,
+      "losing_states": 23,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        2,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        3,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 23,
+      "winning_states": 0,
+      "losing_states": 23,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        3,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        0,
+        3,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 45,
+      "winning_states": 0,
+      "losing_states": 45,
+      "environment_moves": 60,
+      "allocator_edges": 80,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 10,
+      "allocator_edges": 5,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 16,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 23,
+      "winning_states": 0,
+      "losing_states": 23,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 16,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        1,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 23,
+      "winning_states": 21,
+      "losing_states": 2,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        1,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 33,
+      "winning_states": 31,
+      "losing_states": 2,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        2,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 23,
+      "winning_states": 21,
+      "losing_states": 2,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        2,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 33,
+      "winning_states": 32,
+      "losing_states": 1,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        2,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 45,
+      "winning_states": 44,
+      "losing_states": 1,
+      "environment_moves": 60,
+      "allocator_edges": 80,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 23,
+      "winning_states": 0,
+      "losing_states": 23,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        3,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 33,
+      "winning_states": 31,
+      "losing_states": 2,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        1,
+        3,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 45,
+      "winning_states": 44,
+      "losing_states": 1,
+      "environment_moves": 60,
+      "allocator_edges": 80,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 16,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 23,
+      "winning_states": 0,
+      "losing_states": 23,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        1,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 23,
+      "winning_states": 21,
+      "losing_states": 2,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        1,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 33,
+      "winning_states": 32,
+      "losing_states": 1,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        1,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 45,
+      "winning_states": 44,
+      "losing_states": 1,
+      "environment_moves": 60,
+      "allocator_edges": 80,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 23,
+      "winning_states": 0,
+      "losing_states": 23,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        2,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 33,
+      "winning_states": 32,
+      "losing_states": 1,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        2,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 45,
+      "winning_states": 45,
+      "losing_states": 0,
+      "environment_moves": 60,
+      "allocator_edges": 80,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        2,
+        3,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 45,
+      "winning_states": 44,
+      "losing_states": 1,
+      "environment_moves": 60,
+      "allocator_edges": 80,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 23,
+      "winning_states": 0,
+      "losing_states": 23,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 45,
+      "winning_states": 0,
+      "losing_states": 45,
+      "environment_moves": 60,
+      "allocator_edges": 80,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 23,
+      "winning_states": 0,
+      "losing_states": 23,
+      "environment_moves": 34,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        1,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 33,
+      "winning_states": 31,
+      "losing_states": 2,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        1,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 45,
+      "winning_states": 44,
+      "losing_states": 1,
+      "environment_moves": 60,
+      "allocator_edges": 80,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 46,
+      "allocator_edges": 57,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        2,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 45,
+      "winning_states": 44,
+      "losing_states": 1,
+      "environment_moves": 60,
+      "allocator_edges": 80,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 1,
+      "capacities": [
+        3,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 45,
+      "winning_states": 0,
+      "losing_states": 45,
+      "environment_moves": 60,
+      "allocator_edges": 80,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 6,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 4,
+      "winning_states": 0,
+      "losing_states": 4,
+      "environment_moves": 7,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 1,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 33,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 4,
+      "winning_states": 0,
+      "losing_states": 4,
+      "environment_moves": 7,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 1,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 33,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        1,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 33,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        2,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        2,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 88,
+      "winning_states": 0,
+      "losing_states": 88,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 33,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        3,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        3,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 88,
+      "winning_states": 0,
+      "losing_states": 88,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        0,
+        3,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 159,
+      "winning_states": 0,
+      "losing_states": 159,
+      "environment_moves": 222,
+      "allocator_edges": 284,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 4,
+      "winning_states": 0,
+      "losing_states": 4,
+      "environment_moves": 7,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 1,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 33,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 33,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        1,
+        2
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        1,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 88,
+      "winning_states": 74,
+      "losing_states": 14,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 33,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        2,
+        1
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        2,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 88,
+      "winning_states": 76,
+      "losing_states": 12,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        2,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 159,
+      "winning_states": 147,
+      "losing_states": 12,
+      "environment_moves": 222,
+      "allocator_edges": 284,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        3,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 88,
+      "winning_states": 74,
+      "losing_states": 14,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        1,
+        3,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 159,
+      "winning_states": 147,
+      "losing_states": 12,
+      "environment_moves": 222,
+      "allocator_edges": 284,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 33,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 88,
+      "winning_states": 0,
+      "losing_states": 88,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 33,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        1,
+        1
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        1,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 88,
+      "winning_states": 76,
+      "losing_states": 12,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        1,
+        3
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 159,
+      "winning_states": 147,
+      "losing_states": 12,
+      "environment_moves": 222,
+      "allocator_edges": 284,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        2,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 88,
+      "winning_states": 76,
+      "losing_states": 12,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        2,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 159,
+      "winning_states": 153,
+      "losing_states": 6,
+      "environment_moves": 222,
+      "allocator_edges": 284,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 88,
+      "winning_states": 0,
+      "losing_states": 88,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        2,
+        3,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 159,
+      "winning_states": 147,
+      "losing_states": 12,
+      "environment_moves": 222,
+      "allocator_edges": 284,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 33,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 88,
+      "winning_states": 0,
+      "losing_states": 88,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 159,
+      "winning_states": 0,
+      "losing_states": 159,
+      "environment_moves": 222,
+      "allocator_edges": 284,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 43,
+      "winning_states": 0,
+      "losing_states": 43,
+      "environment_moves": 70,
+      "allocator_edges": 70,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        1,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 88,
+      "winning_states": 74,
+      "losing_states": 14,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        1,
+        2
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 159,
+      "winning_states": 147,
+      "losing_states": 12,
+      "environment_moves": 222,
+      "allocator_edges": 284,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 88,
+      "winning_states": 0,
+      "losing_states": 88,
+      "environment_moves": 131,
+      "allocator_edges": 152,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        2,
+        1
+      ],
+      "hall": true,
+      "persistent": true,
+      "rematching": true,
+      "states": 159,
+      "winning_states": 147,
+      "losing_states": 12,
+      "environment_moves": 222,
+      "allocator_edges": 284,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "m": 3,
+      "c": 1,
+      "n": 2,
+      "capacities": [
+        3,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 159,
+      "winning_states": 0,
+      "losing_states": 159,
+      "environment_moves": 222,
+      "allocator_edges": 284,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 6,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 4,
+      "winning_states": 0,
+      "losing_states": 4,
+      "environment_moves": 9,
+      "allocator_edges": 3,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 27,
+      "allocator_edges": 29,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 4,
+      "winning_states": 0,
+      "losing_states": 4,
+      "environment_moves": 9,
+      "allocator_edges": 3,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 12,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 10,
+      "winning_states": 0,
+      "losing_states": 10,
+      "environment_moves": 19,
+      "allocator_edges": 13,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        1,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 25,
+      "winning_states": 0,
+      "losing_states": 25,
+      "environment_moves": 36,
+      "allocator_edges": 42,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 10,
+      "winning_states": 0,
+      "losing_states": 10,
+      "environment_moves": 19,
+      "allocator_edges": 13,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        2,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 19,
+      "winning_states": 0,
+      "losing_states": 19,
+      "environment_moves": 30,
+      "allocator_edges": 30,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        2,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 40,
+      "winning_states": 0,
+      "losing_states": 40,
+      "environment_moves": 53,
+      "allocator_edges": 71,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 27,
+      "allocator_edges": 29,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        3,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 25,
+      "winning_states": 0,
+      "losing_states": 25,
+      "environment_moves": 36,
+      "allocator_edges": 42,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        3,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 40,
+      "winning_states": 0,
+      "losing_states": 40,
+      "environment_moves": 53,
+      "allocator_edges": 71,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        0,
+        3,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 69,
+      "winning_states": 0,
+      "losing_states": 69,
+      "environment_moves": 84,
+      "allocator_edges": 128,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 4,
+      "winning_states": 0,
+      "losing_states": 4,
+      "environment_moves": 9,
+      "allocator_edges": 3,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 12,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 10,
+      "winning_states": 0,
+      "losing_states": 10,
+      "environment_moves": 19,
+      "allocator_edges": 13,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 25,
+      "winning_states": 0,
+      "losing_states": 25,
+      "environment_moves": 36,
+      "allocator_edges": 42,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 12,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 6,
+      "winning_states": 0,
+      "losing_states": 6,
+      "environment_moves": 15,
+      "allocator_edges": 5,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 13,
+      "winning_states": 0,
+      "losing_states": 13,
+      "environment_moves": 24,
+      "allocator_edges": 18,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        1,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 32,
+      "winning_states": 0,
+      "losing_states": 32,
+      "environment_moves": 45,
+      "allocator_edges": 55,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 10,
+      "winning_states": 0,
+      "losing_states": 10,
+      "environment_moves": 19,
+      "allocator_edges": 13,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 13,
+      "winning_states": 0,
+      "losing_states": 13,
+      "environment_moves": 24,
+      "allocator_edges": 18,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        2,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 24,
+      "winning_states": 0,
+      "losing_states": 24,
+      "environment_moves": 37,
+      "allocator_edges": 39,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        2,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 49,
+      "winning_states": 0,
+      "losing_states": 49,
+      "environment_moves": 64,
+      "allocator_edges": 88,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 25,
+      "winning_states": 0,
+      "losing_states": 25,
+      "environment_moves": 36,
+      "allocator_edges": 42,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        3,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 32,
+      "winning_states": 0,
+      "losing_states": 32,
+      "environment_moves": 45,
+      "allocator_edges": 55,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        1,
+        3,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 49,
+      "winning_states": 0,
+      "losing_states": 49,
+      "environment_moves": 64,
+      "allocator_edges": 88,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 10,
+      "winning_states": 0,
+      "losing_states": 10,
+      "environment_moves": 19,
+      "allocator_edges": 13,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 19,
+      "winning_states": 0,
+      "losing_states": 19,
+      "environment_moves": 30,
+      "allocator_edges": 30,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 40,
+      "winning_states": 0,
+      "losing_states": 40,
+      "environment_moves": 53,
+      "allocator_edges": 71,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 10,
+      "winning_states": 0,
+      "losing_states": 10,
+      "environment_moves": 19,
+      "allocator_edges": 13,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 13,
+      "winning_states": 0,
+      "losing_states": 13,
+      "environment_moves": 24,
+      "allocator_edges": 18,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 24,
+      "winning_states": 0,
+      "losing_states": 24,
+      "environment_moves": 37,
+      "allocator_edges": 39,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        1,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 49,
+      "winning_states": 0,
+      "losing_states": 49,
+      "environment_moves": 64,
+      "allocator_edges": 88,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 19,
+      "winning_states": 0,
+      "losing_states": 19,
+      "environment_moves": 30,
+      "allocator_edges": 30,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 24,
+      "winning_states": 0,
+      "losing_states": 24,
+      "environment_moves": 37,
+      "allocator_edges": 39,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        2,
+        2
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 39,
+      "winning_states": 0,
+      "losing_states": 39,
+      "environment_moves": 54,
+      "allocator_edges": 68,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 40,
+      "winning_states": 0,
+      "losing_states": 40,
+      "environment_moves": 53,
+      "allocator_edges": 71,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        2,
+        3,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 49,
+      "winning_states": 0,
+      "losing_states": 49,
+      "environment_moves": 64,
+      "allocator_edges": 88,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 18,
+      "winning_states": 0,
+      "losing_states": 18,
+      "environment_moves": 27,
+      "allocator_edges": 29,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 25,
+      "winning_states": 0,
+      "losing_states": 25,
+      "environment_moves": 36,
+      "allocator_edges": 42,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 40,
+      "winning_states": 0,
+      "losing_states": 40,
+      "environment_moves": 53,
+      "allocator_edges": 71,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 69,
+      "winning_states": 0,
+      "losing_states": 69,
+      "environment_moves": 84,
+      "allocator_edges": 128,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 25,
+      "winning_states": 0,
+      "losing_states": 25,
+      "environment_moves": 36,
+      "allocator_edges": 42,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 32,
+      "winning_states": 0,
+      "losing_states": 32,
+      "environment_moves": 45,
+      "allocator_edges": 55,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 49,
+      "winning_states": 0,
+      "losing_states": 49,
+      "environment_moves": 64,
+      "allocator_edges": 88,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 40,
+      "winning_states": 0,
+      "losing_states": 40,
+      "environment_moves": 53,
+      "allocator_edges": 71,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 49,
+      "winning_states": 0,
+      "losing_states": 49,
+      "environment_moves": 64,
+      "allocator_edges": 88,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 1,
+      "capacities": [
+        3,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 69,
+      "winning_states": 0,
+      "losing_states": 69,
+      "environment_moves": 84,
+      "allocator_edges": 128,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 6,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 6,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 30,
+      "allocator_edges": 20,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 6,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 12,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 11,
+      "winning_states": 0,
+      "losing_states": 11,
+      "environment_moves": 26,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        1,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 60,
+      "allocator_edges": 50,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 11,
+      "winning_states": 0,
+      "losing_states": 11,
+      "environment_moves": 26,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        2,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 27,
+      "winning_states": 0,
+      "losing_states": 27,
+      "environment_moves": 54,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        2,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 79,
+      "winning_states": 0,
+      "losing_states": 79,
+      "environment_moves": 122,
+      "allocator_edges": 134,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 30,
+      "allocator_edges": 20,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        3,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 60,
+      "allocator_edges": 50,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        3,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 79,
+      "winning_states": 0,
+      "losing_states": 79,
+      "environment_moves": 122,
+      "allocator_edges": 134,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        0,
+        3,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 189,
+      "winning_states": 0,
+      "losing_states": 189,
+      "environment_moves": 252,
+      "allocator_edges": 344,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 6,
+      "allocator_edges": 2,
+      "initial_rejection_depth": 1,
+      "max_rank": 2
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 12,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 11,
+      "winning_states": 0,
+      "losing_states": 11,
+      "environment_moves": 26,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 60,
+      "allocator_edges": 50,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 12,
+      "allocator_edges": 4,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 24,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 21,
+      "winning_states": 0,
+      "losing_states": 21,
+      "environment_moves": 48,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        1,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 65,
+      "winning_states": 0,
+      "losing_states": 65,
+      "environment_moves": 108,
+      "allocator_edges": 106,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 11,
+      "winning_states": 0,
+      "losing_states": 11,
+      "environment_moves": 26,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 21,
+      "winning_states": 0,
+      "losing_states": 21,
+      "environment_moves": 48,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        2,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 51,
+      "winning_states": 0,
+      "losing_states": 51,
+      "environment_moves": 94,
+      "allocator_edges": 78,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        2,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 137,
+      "winning_states": 0,
+      "losing_states": 137,
+      "environment_moves": 200,
+      "allocator_edges": 240,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 60,
+      "allocator_edges": 50,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        3,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 65,
+      "winning_states": 0,
+      "losing_states": 65,
+      "environment_moves": 108,
+      "allocator_edges": 106,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        1,
+        3,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 137,
+      "winning_states": 0,
+      "losing_states": 137,
+      "environment_moves": 200,
+      "allocator_edges": 240,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 14,
+      "allocator_edges": 8,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 11,
+      "winning_states": 0,
+      "losing_states": 11,
+      "environment_moves": 26,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 27,
+      "winning_states": 0,
+      "losing_states": 27,
+      "environment_moves": 54,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 79,
+      "winning_states": 0,
+      "losing_states": 79,
+      "environment_moves": 122,
+      "allocator_edges": 134,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 11,
+      "winning_states": 0,
+      "losing_states": 11,
+      "environment_moves": 26,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 21,
+      "winning_states": 0,
+      "losing_states": 21,
+      "environment_moves": 48,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 51,
+      "winning_states": 0,
+      "losing_states": 51,
+      "environment_moves": 94,
+      "allocator_edges": 78,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        1,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 137,
+      "winning_states": 0,
+      "losing_states": 137,
+      "environment_moves": 200,
+      "allocator_edges": 240,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 27,
+      "winning_states": 0,
+      "losing_states": 27,
+      "environment_moves": 54,
+      "allocator_edges": 38,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 51,
+      "winning_states": 0,
+      "losing_states": 51,
+      "environment_moves": 94,
+      "allocator_edges": 78,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        2,
+        2
+      ],
+      "hall": true,
+      "persistent": false,
+      "rematching": true,
+      "states": 111,
+      "winning_states": 0,
+      "losing_states": 111,
+      "environment_moves": 174,
+      "allocator_edges": 188,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 79,
+      "winning_states": 0,
+      "losing_states": 79,
+      "environment_moves": 122,
+      "allocator_edges": 134,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        2,
+        3,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 137,
+      "winning_states": 0,
+      "losing_states": 137,
+      "environment_moves": 200,
+      "allocator_edges": 240,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        0,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 15,
+      "winning_states": 0,
+      "losing_states": 15,
+      "environment_moves": 30,
+      "allocator_edges": 20,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        0,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 60,
+      "allocator_edges": 50,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        0,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 79,
+      "winning_states": 0,
+      "losing_states": 79,
+      "environment_moves": 122,
+      "allocator_edges": 134,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        0,
+        3
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 189,
+      "winning_states": 0,
+      "losing_states": 189,
+      "environment_moves": 252,
+      "allocator_edges": 344,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        1,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 33,
+      "winning_states": 0,
+      "losing_states": 33,
+      "environment_moves": 60,
+      "allocator_edges": 50,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        1,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 65,
+      "winning_states": 0,
+      "losing_states": 65,
+      "environment_moves": 108,
+      "allocator_edges": 106,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        1,
+        2
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 137,
+      "winning_states": 0,
+      "losing_states": 137,
+      "environment_moves": 200,
+      "allocator_edges": 240,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        2,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 79,
+      "winning_states": 0,
+      "losing_states": 79,
+      "environment_moves": 122,
+      "allocator_edges": 134,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        2,
+        1
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 137,
+      "winning_states": 0,
+      "losing_states": 137,
+      "environment_moves": 200,
+      "allocator_edges": 240,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    },
+    {
+      "m": 3,
+      "c": 2,
+      "n": 2,
+      "capacities": [
+        3,
+        3,
+        0
+      ],
+      "hall": false,
+      "persistent": false,
+      "rematching": false,
+      "states": 189,
+      "winning_states": 0,
+      "losing_states": 189,
+      "environment_moves": 252,
+      "allocator_edges": 344,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    }
+  ]
+}

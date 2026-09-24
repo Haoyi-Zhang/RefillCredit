@@ -1,0 +1,73 @@
+{
+  "part": 1,
+  "all_commands_succeeded": true,
+  "semantic_results_equal": true,
+  "commands": [
+    {
+      "command": [
+        "python",
+        "src/campaign.py",
+        "graphs",
+        "--block",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/campaign.py",
+        "graphs",
+        "--block",
+        "1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/campaign.py",
+        "graphs",
+        "--block",
+        "2"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/campaign.py",
+        "graphs",
+        "--block",
+        "3"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/campaign.py",
+        "graphs",
+        "--block",
+        "4"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/campaign.py",
+        "graphs",
+        "--block",
+        "5"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "compared_result_files": 71,
+  "compared_input_files": 8,
+  "child_cpu_seconds": 20.72386,
+  "wall_seconds": 21.045292745000097,
+  "max_child_rss_kib": 95272,
+  "measurement_note": "maximum individual child RSS, not aggregate system RSS; parent orchestrates sequentially"
+}

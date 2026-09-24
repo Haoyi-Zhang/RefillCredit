@@ -1,0 +1,11 @@
+observer,conclusion,shortest_ticks,visited_pairs,checked_edges,capacities,policy,first_fit_reference
+0,noninterference,,640,17280,"[1,1]",first-fit,"{""reachable_physical_states"":92,""reference_transitions"":828}"
+1,interference,1,11,11,"[1,1]",first-fit,"{""reachable_physical_states"":92,""reference_transitions"":828}"
+0,noninterference,,834,22518,"[1,2]",first-fit,"{""reachable_physical_states"":106,""reference_transitions"":954}"
+1,interference,1,11,11,"[1,2]",first-fit,"{""reachable_physical_states"":106,""reference_transitions"":954}"
+0,noninterference,,1306,35262,"[1,2]",certified,
+1,noninterference,,1318,35586,"[1,2]",certified,
+0,noninterference,,1024,27648,"[2,1]",first-fit,"{""reachable_physical_states"":116,""reference_transitions"":1044}"
+1,noninterference,,1070,28890,"[2,1]",first-fit,"{""reachable_physical_states"":116,""reference_transitions"":1044}"
+0,noninterference,,1024,27648,"[2,1]",certified,
+1,noninterference,,1070,28890,"[2,1]",certified,

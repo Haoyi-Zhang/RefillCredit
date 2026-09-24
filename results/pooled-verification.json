@@ -1,0 +1,70 @@
+{
+  "case_count": 10,
+  "all_checks_passed": true,
+  "cases": [
+    {
+      "file": "pooled-11-first-fit-0.json",
+      "pair_states": 640,
+      "checked_edges": 17280,
+      "shortest_ticks": null
+    },
+    {
+      "file": "pooled-11-first-fit-1.json",
+      "pair_states": 1,
+      "checked_edges": 0,
+      "shortest_ticks": 1
+    },
+    {
+      "file": "pooled-12-certified-0.json",
+      "pair_states": 1306,
+      "checked_edges": 35262,
+      "shortest_ticks": null
+    },
+    {
+      "file": "pooled-12-certified-1.json",
+      "pair_states": 1318,
+      "checked_edges": 35586,
+      "shortest_ticks": null
+    },
+    {
+      "file": "pooled-12-first-fit-0.json",
+      "pair_states": 834,
+      "checked_edges": 22518,
+      "shortest_ticks": null
+    },
+    {
+      "file": "pooled-12-first-fit-1.json",
+      "pair_states": 1,
+      "checked_edges": 0,
+      "shortest_ticks": 1
+    },
+    {
+      "file": "pooled-21-certified-0.json",
+      "pair_states": 1024,
+      "checked_edges": 27648,
+      "shortest_ticks": null
+    },
+    {
+      "file": "pooled-21-certified-1.json",
+      "pair_states": 1070,
+      "checked_edges": 28890,
+      "shortest_ticks": null
+    },
+    {
+      "file": "pooled-21-first-fit-0.json",
+      "pair_states": 1024,
+      "checked_edges": 27648,
+      "shortest_ticks": null
+    },
+    {
+      "file": "pooled-21-first-fit-1.json",
+      "pair_states": 1070,
+      "checked_edges": 28890,
+      "shortest_ticks": null
+    }
+  ],
+  "workers": 1,
+  "cpu_seconds": 2.763953183,
+  "wall_seconds": 2.763280180000038,
+  "peak_rss_kib": 97192
+}

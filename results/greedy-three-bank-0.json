@@ -1,0 +1,6328 @@
+{
+  "family": "three-bank",
+  "block": 0,
+  "case_count": 196,
+  "cases": [
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 9,
+      "allocator_edges": 7,
+      "initial_rejection_depth": 2,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 4,
+      "winning_states": 4,
+      "losing_states": 0,
+      "environment_moves": 12,
+      "allocator_edges": 12,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 4,
+      "winning_states": 4,
+      "losing_states": 0,
+      "environment_moves": 12,
+      "allocator_edges": 12,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 6,
+      "winning_states": 6,
+      "losing_states": 0,
+      "environment_moves": 18,
+      "allocator_edges": 20,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 21,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 17,
+      "allocator_edges": 15,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 6,
+      "winning_states": 0,
+      "losing_states": 6,
+      "environment_moves": 20,
+      "allocator_edges": 18,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 17,
+      "allocator_edges": 15,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 6,
+      "winning_states": 0,
+      "losing_states": 6,
+      "environment_moves": 20,
+      "allocator_edges": 18,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 8,
+      "winning_states": 0,
+      "losing_states": 8,
+      "environment_moves": 26,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 6,
+      "winning_states": 6,
+      "losing_states": 0,
+      "environment_moves": 20,
+      "allocator_edges": 20,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 26,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 6,
+      "losing_states": 2,
+      "environment_moves": 26,
+      "allocator_edges": 26,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 32,
+      "allocator_edges": 34,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 26,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 32,
+      "allocator_edges": 34,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 11,
+      "winning_states": 10,
+      "losing_states": 1,
+      "environment_moves": 35,
+      "allocator_edges": 39,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 4,
+      "winning_states": 4,
+      "losing_states": 0,
+      "environment_moves": 12,
+      "allocator_edges": 12,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 9,
+      "allocator_edges": 7,
+      "initial_rejection_depth": 2,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 4,
+      "winning_states": 4,
+      "losing_states": 0,
+      "environment_moves": 12,
+      "allocator_edges": 12,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 6,
+      "winning_states": 6,
+      "losing_states": 0,
+      "environment_moves": 18,
+      "allocator_edges": 20,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 21,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 17,
+      "allocator_edges": 15,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 6,
+      "winning_states": 6,
+      "losing_states": 0,
+      "environment_moves": 20,
+      "allocator_edges": 20,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 26,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 6,
+      "winning_states": 0,
+      "losing_states": 6,
+      "environment_moves": 20,
+      "allocator_edges": 18,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 17,
+      "allocator_edges": 15,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 6,
+      "winning_states": 0,
+      "losing_states": 6,
+      "environment_moves": 20,
+      "allocator_edges": 18,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 8,
+      "winning_states": 0,
+      "losing_states": 8,
+      "environment_moves": 26,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 6,
+      "losing_states": 2,
+      "environment_moves": 26,
+      "allocator_edges": 26,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 32,
+      "allocator_edges": 34,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 26,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 11,
+      "winning_states": 10,
+      "losing_states": 1,
+      "environment_moves": 35,
+      "allocator_edges": 39,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 32,
+      "allocator_edges": 34,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 7,
+      "losing_states": 0,
+      "environment_moves": 21,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 6,
+      "winning_states": 6,
+      "losing_states": 0,
+      "environment_moves": 18,
+      "allocator_edges": 20,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 24,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 24,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 10,
+      "losing_states": 0,
+      "environment_moves": 30,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 6,
+      "losing_states": 3,
+      "environment_moves": 30,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 6,
+      "losing_states": 2,
+      "environment_moves": 27,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 6,
+      "losing_states": 4,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 8,
+      "losing_states": 4,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 6,
+      "losing_states": 3,
+      "environment_moves": 30,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 6,
+      "losing_states": 2,
+      "environment_moves": 27,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 6,
+      "losing_states": 4,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 8,
+      "losing_states": 4,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 10,
+      "losing_states": 0,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 12,
+      "losing_states": 0,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 12,
+      "losing_states": 0,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 14,
+      "winning_states": 14,
+      "losing_states": 0,
+      "environment_moves": 45,
+      "allocator_edges": 52,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 11,
+      "winning_states": 11,
+      "losing_states": 0,
+      "environment_moves": 36,
+      "allocator_edges": 41,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 11,
+      "winning_states": 11,
+      "losing_states": 0,
+      "environment_moves": 36,
+      "allocator_edges": 41,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 13,
+      "losing_states": 0,
+      "environment_moves": 42,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 13,
+      "losing_states": 0,
+      "environment_moves": 42,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 15,
+      "winning_states": 15,
+      "losing_states": 0,
+      "environment_moves": 48,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 15,
+      "winning_states": 15,
+      "losing_states": 0,
+      "environment_moves": 48,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 4,
+      "winning_states": 4,
+      "losing_states": 0,
+      "environment_moves": 12,
+      "allocator_edges": 12,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 4,
+      "winning_states": 4,
+      "losing_states": 0,
+      "environment_moves": 12,
+      "allocator_edges": 12,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 6,
+      "winning_states": 6,
+      "losing_states": 0,
+      "environment_moves": 18,
+      "allocator_edges": 20,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 3,
+      "winning_states": 0,
+      "losing_states": 3,
+      "environment_moves": 9,
+      "allocator_edges": 7,
+      "initial_rejection_depth": 2,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 21,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 6,
+      "winning_states": 6,
+      "losing_states": 0,
+      "environment_moves": 20,
+      "allocator_edges": 20,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 26,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 17,
+      "allocator_edges": 15,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 26,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 5,
+      "winning_states": 0,
+      "losing_states": 5,
+      "environment_moves": 17,
+      "allocator_edges": 15,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 23,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 8,
+      "losing_states": 1,
+      "environment_moves": 29,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 11,
+      "winning_states": 10,
+      "losing_states": 1,
+      "environment_moves": 35,
+      "allocator_edges": 39,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 6,
+      "winning_states": 0,
+      "losing_states": 6,
+      "environment_moves": 20,
+      "allocator_edges": 18,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 6,
+      "winning_states": 0,
+      "losing_states": 6,
+      "environment_moves": 20,
+      "allocator_edges": 18,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 8,
+      "winning_states": 0,
+      "losing_states": 8,
+      "environment_moves": 26,
+      "allocator_edges": 26,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 6,
+      "losing_states": 2,
+      "environment_moves": 26,
+      "allocator_edges": 26,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 32,
+      "allocator_edges": 34,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 32,
+      "allocator_edges": 34,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 6,
+      "winning_states": 6,
+      "losing_states": 0,
+      "environment_moves": 18,
+      "allocator_edges": 20,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 24,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 7,
+      "losing_states": 0,
+      "environment_moves": 21,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 24,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 10,
+      "losing_states": 0,
+      "environment_moves": 30,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 6,
+      "losing_states": 2,
+      "environment_moves": 27,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 6,
+      "losing_states": 3,
+      "environment_moves": 30,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 6,
+      "losing_states": 4,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 8,
+      "losing_states": 4,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 11,
+      "winning_states": 11,
+      "losing_states": 0,
+      "environment_moves": 36,
+      "allocator_edges": 41,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 6,
+      "losing_states": 2,
+      "environment_moves": 27,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 10,
+      "losing_states": 0,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 11,
+      "winning_states": 11,
+      "losing_states": 0,
+      "environment_moves": 36,
+      "allocator_edges": 41,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 13,
+      "losing_states": 0,
+      "environment_moves": 42,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 6,
+      "losing_states": 4,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 12,
+      "losing_states": 0,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 13,
+      "losing_states": 0,
+      "environment_moves": 42,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 15,
+      "winning_states": 15,
+      "losing_states": 0,
+      "environment_moves": 48,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 6,
+      "losing_states": 3,
+      "environment_moves": 30,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 8,
+      "losing_states": 4,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 12,
+      "losing_states": 0,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 14,
+      "winning_states": 14,
+      "losing_states": 0,
+      "environment_moves": 45,
+      "allocator_edges": 52,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 15,
+      "winning_states": 15,
+      "losing_states": 0,
+      "environment_moves": 48,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 6,
+      "winning_states": 6,
+      "losing_states": 0,
+      "environment_moves": 18,
+      "allocator_edges": 20,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 24,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 5,
+      "winning_states": 4,
+      "losing_states": 1,
+      "environment_moves": 15,
+      "allocator_edges": 15,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 8,
+      "losing_states": 0,
+      "environment_moves": 24,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 7,
+      "losing_states": 0,
+      "environment_moves": 21,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 10,
+      "losing_states": 0,
+      "environment_moves": 30,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 6,
+      "losing_states": 2,
+      "environment_moves": 27,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 11,
+      "winning_states": 11,
+      "losing_states": 0,
+      "environment_moves": 36,
+      "allocator_edges": 41,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 8,
+      "winning_states": 6,
+      "losing_states": 2,
+      "environment_moves": 27,
+      "allocator_edges": 28,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 11,
+      "winning_states": 11,
+      "losing_states": 0,
+      "environment_moves": 36,
+      "allocator_edges": 41,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 10,
+      "losing_states": 0,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 13,
+      "losing_states": 0,
+      "environment_moves": 42,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 6,
+      "losing_states": 4,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 6,
+      "losing_states": 3,
+      "environment_moves": 30,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 8,
+      "losing_states": 4,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 6,
+      "losing_states": 4,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 13,
+      "losing_states": 0,
+      "environment_moves": 42,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 12,
+      "losing_states": 0,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 15,
+      "winning_states": 15,
+      "losing_states": 0,
+      "environment_moves": 48,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 8,
+      "losing_states": 2,
+      "environment_moves": 33,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 9,
+      "winning_states": 6,
+      "losing_states": 3,
+      "environment_moves": 30,
+      "allocator_edges": 31,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 8,
+      "losing_states": 4,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 12,
+      "winning_states": 12,
+      "losing_states": 0,
+      "environment_moves": 39,
+      "allocator_edges": 44,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 15,
+      "winning_states": 15,
+      "losing_states": 0,
+      "environment_moves": 48,
+      "allocator_edges": 57,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 14,
+      "winning_states": 14,
+      "losing_states": 0,
+      "environment_moves": 45,
+      "allocator_edges": 52,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 21,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 21,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 10,
+      "losing_states": 0,
+      "environment_moves": 30,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 7,
+      "winning_states": 6,
+      "losing_states": 1,
+      "environment_moves": 21,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 10,
+      "losing_states": 0,
+      "environment_moves": 30,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 10,
+      "losing_states": 0,
+      "environment_moves": 30,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 13,
+      "losing_states": 0,
+      "environment_moves": 39,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 6,
+      "losing_states": 4,
+      "environment_moves": 34,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 11,
+      "losing_states": 2,
+      "environment_moves": 43,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 6,
+      "losing_states": 4,
+      "environment_moves": 34,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 11,
+      "losing_states": 2,
+      "environment_moves": 43,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 10,
+      "losing_states": 3,
+      "environment_moves": 43,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 16,
+      "winning_states": 13,
+      "losing_states": 3,
+      "environment_moves": 52,
+      "allocator_edges": 62,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 11,
+      "losing_states": 2,
+      "environment_moves": 43,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 10,
+      "winning_states": 6,
+      "losing_states": 4,
+      "environment_moves": 34,
+      "allocator_edges": 36,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 10,
+      "losing_states": 3,
+      "environment_moves": 43,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 11,
+      "losing_states": 2,
+      "environment_moves": 43,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 16,
+      "winning_states": 13,
+      "losing_states": 3,
+      "environment_moves": 52,
+      "allocator_edges": 62,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 10,
+      "losing_states": 3,
+      "environment_moves": 43,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 16,
+      "winning_states": 16,
+      "losing_states": 0,
+      "environment_moves": 52,
+      "allocator_edges": 62,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 16,
+      "winning_states": 16,
+      "losing_states": 0,
+      "environment_moves": 52,
+      "allocator_edges": 62,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 19,
+      "winning_states": 19,
+      "losing_states": 0,
+      "environment_moves": 61,
+      "allocator_edges": 75,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 11,
+      "losing_states": 2,
+      "environment_moves": 43,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 11,
+      "losing_states": 2,
+      "environment_moves": 43,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 16,
+      "winning_states": 13,
+      "losing_states": 3,
+      "environment_moves": 52,
+      "allocator_edges": 62,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 16,
+      "winning_states": 16,
+      "losing_states": 0,
+      "environment_moves": 52,
+      "allocator_edges": 62,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 19,
+      "winning_states": 19,
+      "losing_states": 0,
+      "environment_moves": 61,
+      "allocator_edges": 75,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 19,
+      "winning_states": 19,
+      "losing_states": 0,
+      "environment_moves": 61,
+      "allocator_edges": 75,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    }
+  ],
+  "all_choices_safe": 73,
+  "realizable": 172,
+  "all_oracle_checks_passed": true,
+  "workers": 1,
+  "cpu_seconds": 0.16799723,
+  "wall_seconds": 0.16761828799985778,
+  "peak_rss_kib": 94764
+}

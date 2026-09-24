@@ -1,0 +1,106 @@
+{
+  "mode": "foreign-invalidate",
+  "observer": 0,
+  "conclusion": "interference",
+  "shortest_ticks": 5,
+  "trace": [
+    {
+      "left_input": [
+        0,
+        -1
+      ],
+      "right_input": [
+        0,
+        -1
+      ],
+      "left_output": [
+        1,
+        []
+      ],
+      "right_output": [
+        1,
+        []
+      ]
+    },
+    {
+      "left_input": [
+        -1,
+        -1
+      ],
+      "right_input": [
+        -1,
+        -1
+      ],
+      "left_output": [
+        -1,
+        []
+      ],
+      "right_output": [
+        -1,
+        []
+      ]
+    },
+    {
+      "left_input": [
+        -1,
+        -1
+      ],
+      "right_input": [
+        -1,
+        -1
+      ],
+      "left_output": [
+        -1,
+        [
+          0
+        ]
+      ],
+      "right_output": [
+        -1,
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "left_input": [
+        -1,
+        -1
+      ],
+      "right_input": [
+        -1,
+        0
+      ],
+      "left_output": [
+        -1,
+        []
+      ],
+      "right_output": [
+        -1,
+        []
+      ]
+    },
+    {
+      "left_input": [
+        0,
+        -1
+      ],
+      "right_input": [
+        0,
+        -1
+      ],
+      "left_output": [
+        1,
+        [
+          0
+        ]
+      ],
+      "right_output": [
+        1,
+        []
+      ]
+    }
+  ],
+  "visited_pairs": 505,
+  "checked_edges": 6787
+}

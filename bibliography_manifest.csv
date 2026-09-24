@@ -1,0 +1,33 @@
+citation_key,bibliography_type,title,year,venue,persistent_identifier
+iram,article,Scalable Processors in the Billion-Transistor Era: {IRAM},1997,Computer,doi:10.1109/2.612252
+mi6,inproceedings,{MI6}: Secure Enclaves in a Speculative Out-of-Order Processor,2019,Proceedings of the 52nd Annual IEEE/ACM International Symposium on Microarchitecture,doi:10.1145/3352460.3358310
+dawg,inproceedings,{DAWG}: A Defense Against Cache Timing Attacks in Speculative Execution Processors,2018,2018 51st Annual IEEE/ACM International Symposium on Microarchitecture,doi:10.1109/micro.2018.00083
+nomo,article,Non-Monopolizable Caches: Low-Complexity Mitigation of Cache Side Channel Attacks,2012,ACM Transactions on Architecture and Code Optimization,doi:10.1145/2086696.2086714
+fixedservice,inproceedings,Timing Channel Protection for a Shared Memory Controller,2014,2014 IEEE 20th International Symposium on High Performance Computer Architecture,doi:10.1109/hpca.2014.6835934
+timeprotection,inproceedings,Time Protection: The Missing {OS} Abstraction,2019,Proceedings of the Fourteenth EuroSys Conference,doi:10.1145/3302424.3303976
+dagguise,inproceedings,{DAGguise}: Mitigating Memory Timing Side Channels,2022,Proceedings of the 27th ACM International Conference on Architectural Support for Programming Languages and Operating Systems,doi:10.1145/3503222.3507747
+buffets,inproceedings,Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration,2019,Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems,doi:10.1145/3297858.3304025
+ccbp,article,Coordinated {CTA} Combination and Bandwidth Partitioning for {GPU} Concurrent Kernel Execution,2019,ACM Transactions on Architecture and Code Optimization,doi:10.1145/3326124
+scp,misc,"Partitioned Tags, Shared Data: Reconciling Strict Cache Isolation with Write-Shared Coherence",2026,"Preprint, arXiv:2606.12259",url:https://arxiv.org/abs/2606.12259
+robustmatching,misc,Matching Drivers to Riders: A Two-Stage Robust Approach,2025,"Extended manuscript, arXiv:2011.03624, revision dated 6 August 2025",url:https://arxiv.org/abs/2011.03624v4
+commitment,article,Recoverable Robust Optimization with Commitment,2026,Mathematical Programming,doi:10.1007/s10107-026-02385-7
+hall,article,On Representatives of Subsets,1935,Journal of the London Mathematical Society,doi:10.1112/jlms/s1-10.37.26
+karp,incollection,Reducibility among Combinatorial Problems,1972,Complexity of Computer Computations,doi:10.1007/978-1-4684-2001-2_9
+selfcomposition,inproceedings,Secure Information Flow by Self-Composition,2004,Proceedings of the 17th IEEE Computer Security Foundations Workshop,doi:10.1109/csfw.2004.1310735
+infosafety,incollection,Secure Information Flow as a Safety Problem,2005,Static Analysis,doi:10.1007/11547662_24
+mtisolation,inproceedings,Specification and Verification of Strong Timing Isolation of Hardware Enclaves,2024,Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security,doi:10.1145/3658644.3690203
+asm,article,{ASM}: An Adaptive Secure Multicore for Co-Located Mutually Distrusting Processes,2023,ACM Transactions on Architecture and Code Optimization,doi:10.1145/3587480
+ironhide,inproceedings,{IRONHIDE}: A Secure Multicore that Efficiently Mitigates Microarchitecture State Attacks for Interactive Applications,2020,2020 IEEE International Symposium on High Performance Computer Architecture,doi:10.1109/hpca47549.2020.00019
+onlinematching,article,Online Matching and Ad Allocation,2013,Foundations and Trends in Theoretical Computer Science,doi:10.1561/0400000057
+cacheinspector,article,{CacheInspector}: Reverse Engineering Cache Resources in Public Clouds,2021,ACM Transactions on Architecture and Code Optimization,doi:10.1145/3457373
+compilermit,article,Compiler Mitigations for Time Attacks on Modern {x86} Processors,2012,ACM Transactions on Architecture and Code Optimization,doi:10.1145/2086696.2086702
+cotseval,article,On the Evaluation of the Impact of Shared Resources in Multithreaded {COTS} Processors in Time-Critical Environments,2012,ACM Transactions on Architecture and Code Optimization,doi:10.1145/2086696.2086713
+atr,article,Adaptive Timekeeping Replacement: Fine-Grained Capacity Management for Shared {CMP} Caches,2011,ACM Transactions on Architecture and Code Optimization,doi:10.1145/1952998.1953001
+bpm,article,{BPM/BPM+}: Software-Based Dynamic Memory Partitioning Mechanisms for Mitigating {DRAM} Bank-/Channel-Level Interferences in Multicore Systems,2014,ACM Transactions on Architecture and Code Optimization,doi:10.1145/2579672
+dash,article,{DASH}: Deadline-Aware High-Performance Memory Scheduler for Heterogeneous Systems with Hardware Accelerators,2015,ACM Transactions on Architecture and Code Optimization,doi:10.1145/2847255
+caliper,article,Caliper: Interference Estimator for Multi-Tenant Environments Sharing Architectural Resources,2019,ACM Transactions on Architecture and Code Optimization,doi:10.1145/3323090
+sanctum,inproceedings,Sanctum: Minimal Hardware Extensions for Strong Software Isolation,2016,25th USENIX Security Symposium,url:https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/costan
+ucp,inproceedings,"Utility-Based Cache Partitioning: A Low-Overhead, High-Performance, Runtime Mechanism to Partition Shared Caches",2006,39th Annual IEEE/ACM International Symposium on Microarchitecture,doi:10.1109/micro.2006.49
+vantage,inproceedings,Vantage: Scalable and Efficient Fine-Grain Cache Partitioning,2011,Proceedings of the 38th Annual International Symposium on Computer Architecture,doi:10.1145/2000064.2000073
+catalyst,inproceedings,{CATalyst}: Defeating Last-Level Cache Side Channel Attacks in Cloud Computing,2016,2016 IEEE International Symposium on High Performance Computer Architecture,doi:10.1109/hpca.2016.7446082
+memguard,inproceedings,{MemGuard}: Memory Bandwidth Reservation System for Efficient Performance Isolation in Multi-Core Platforms,2013,2013 IEEE 19th Real-Time and Embedded Technology and Applications Symposium,doi:10.1109/rtas.2013.6531079

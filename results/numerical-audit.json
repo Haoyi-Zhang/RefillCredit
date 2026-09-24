@@ -1,0 +1,329 @@
+{
+  "all_numerical_checks_passed": true,
+  "checks": [
+    {
+      "claim": "fork count / snapshot / persistent",
+      "value": [
+        280,
+        61,
+        47
+      ]
+    },
+    {
+      "claim": "graph count / persistent / maximum states",
+      "value": [
+        4296,
+        2906,
+        602
+      ]
+    },
+    {
+      "claim": "two-bank independent-tenant cases / winning / all choices",
+      "value": [
+        441,
+        150,
+        104
+      ]
+    },
+    {
+      "claim": "three-bank independent-tenant cases / winning / all choices",
+      "value": [
+        784,
+        598,
+        160
+      ]
+    },
+    {
+      "claim": "policy-dependent winning cases",
+      "value": 484
+    },
+    {
+      "claim": "uniform count",
+      "value": 80
+    },
+    {
+      "claim": "uniform optima (3, 2, 2)",
+      "value": [
+        3,
+        4
+      ]
+    },
+    {
+      "claim": "uniform optima (6, 4, 3)",
+      "value": [
+        10,
+        16
+      ]
+    },
+    {
+      "claim": "hierarchy-pool-02 integration",
+      "value": [
+        312,
+        0,
+        1
+      ]
+    },
+    {
+      "claim": "hierarchy-pool-02 encoding",
+      "value": [
+        252,
+        972
+      ]
+    },
+    {
+      "claim": "hierarchy-pool-11 integration",
+      "value": [
+        312,
+        0,
+        3
+      ]
+    },
+    {
+      "claim": "hierarchy-pool-11 encoding",
+      "value": [
+        252,
+        972
+      ]
+    },
+    {
+      "claim": "hierarchy-pool-21 integration",
+      "value": [
+        594,
+        510,
+        null
+      ]
+    },
+    {
+      "claim": "hierarchy-pool-21 encoding",
+      "value": [
+        252,
+        972
+      ]
+    },
+    {
+      "claim": "hierarchy-pool-12 integration",
+      "value": [
+        594,
+        510,
+        null
+      ]
+    },
+    {
+      "claim": "hierarchy-pool-12 encoding",
+      "value": [
+        252,
+        972
+      ]
+    },
+    {
+      "claim": "hierarchy-pool-22 integration",
+      "value": [
+        972,
+        972,
+        null
+      ]
+    },
+    {
+      "claim": "hierarchy-pool-22 encoding",
+      "value": [
+        252,
+        972
+      ]
+    },
+    {
+      "claim": "physical 11 first-fit observer 0",
+      "value": [
+        640,
+        17280,
+        null
+      ]
+    },
+    {
+      "claim": "physical 11 first-fit observer 1",
+      "value": [
+        11,
+        11,
+        1
+      ]
+    },
+    {
+      "claim": "physical 12 first-fit observer 0",
+      "value": [
+        834,
+        22518,
+        null
+      ]
+    },
+    {
+      "claim": "physical 12 first-fit observer 1",
+      "value": [
+        11,
+        11,
+        1
+      ]
+    },
+    {
+      "claim": "physical 12 certified observer 0",
+      "value": [
+        1306,
+        35262,
+        null
+      ]
+    },
+    {
+      "claim": "physical 12 certified observer 1",
+      "value": [
+        1318,
+        35586,
+        null
+      ]
+    },
+    {
+      "claim": "physical 21 first-fit observer 0",
+      "value": [
+        1024,
+        27648,
+        null
+      ]
+    },
+    {
+      "claim": "physical 21 first-fit observer 1",
+      "value": [
+        1070,
+        28890,
+        null
+      ]
+    },
+    {
+      "claim": "physical 21 certified observer 0",
+      "value": [
+        1024,
+        27648,
+        null
+      ]
+    },
+    {
+      "claim": "physical 21 certified observer 1",
+      "value": [
+        1070,
+        28890,
+        null
+      ]
+    },
+    {
+      "claim": "logical fault global-credit",
+      "value": [
+        2,
+        1
+      ]
+    },
+    {
+      "claim": "logical fault skip-idle",
+      "value": [
+        2,
+        2
+      ]
+    },
+    {
+      "claim": "logical fault foreign-invalidate",
+      "value": [
+        5,
+        6
+      ]
+    },
+    {
+      "claim": "logical fault foreign-fill",
+      "value": [
+        3,
+        2
+      ]
+    },
+    {
+      "claim": "logical protected 0",
+      "value": [
+        630,
+        17010
+      ]
+    },
+    {
+      "claim": "logical protected 1",
+      "value": [
+        630,
+        17010
+      ]
+    },
+    {
+      "claim": "pair-bank protected 0",
+      "value": [
+        5602,
+        358528,
+        null
+      ]
+    },
+    {
+      "claim": "pair-bank protected 1",
+      "value": [
+        5734,
+        366976,
+        null
+      ]
+    },
+    {
+      "claim": "pair-bank negative 0",
+      "value": [
+        86,
+        145,
+        2
+      ]
+    },
+    {
+      "claim": "pair-bank negative 1",
+      "value": [
+        18,
+        18,
+        1
+      ]
+    },
+    {
+      "claim": "pair-bank single positive",
+      "value": [
+        334,
+        5344,
+        0
+      ]
+    },
+    {
+      "claim": "pair-bank single negative",
+      "value": [
+        232,
+        3712,
+        494
+      ]
+    },
+    {
+      "claim": "independent tiny-oracle contract cases",
+      "value": 484
+    },
+    {
+      "claim": "independent tiny-oracle semantic and snapshot comparisons",
+      "value": [
+        764,
+        484
+      ]
+    },
+    {
+      "claim": "independent tiny-oracle losing-state ranks",
+      "value": 16205
+    },
+    {
+      "claim": "unit tests",
+      "value": [
+        55,
+        0,
+        0,
+        true
+      ]
+    }
+  ],
+  "check_count": 44
+}

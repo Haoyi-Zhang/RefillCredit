@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "case": "fork-two-entries",
+      "hall": true,
+      "persistent": "unrealizable",
+      "rematching": "realizable",
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 13,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 5
+    },
+    {
+      "case": "fork-three-entries",
+      "hall": true,
+      "persistent": "realizable",
+      "rematching": "realizable",
+      "states": 15,
+      "winning_states": 14,
+      "losing_states": 1,
+      "environment_moves": 20,
+      "allocator_edges": 23,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "case": "missing-bank",
+      "hall": false,
+      "persistent": "unrealizable",
+      "rematching": "unrealizable",
+      "states": 9,
+      "winning_states": 0,
+      "losing_states": 9,
+      "environment_moves": 13,
+      "allocator_edges": 12,
+      "initial_rejection_depth": 2,
+      "max_rank": 4
+    }
+  ],
+  "cpu_seconds": 0.002130216000000018,
+  "wall_seconds": 0.0021300619999919945,
+  "peak_rss_kib": 93224,
+  "workers": 1,
+  "randomness": "none",
+  "seeds": [],
+  "oracle": "instantaneous Hall plus full rematching game"
+}

@@ -1,0 +1,6 @@
+name,capacities,hall,conclusion,states,winning_states,losing_states,environment_moves,allocator_edges,initial_rejection_depth,max_rank,logical_nodes,transitions_checked,states_checked,input_obligations_checked,allocator_edges_checked
+hierarchy-pool-02,"[0,2]",False,unrealizable,312,0,312,1224,1168,1,10,252,972,312,1224,1168
+hierarchy-pool-11,"[1,1]",True,unrealizable,312,0,312,1224,1168,3,10,252,972,312,1224,1168
+hierarchy-pool-21,"[2,1]",True,realizable,594,510,84,2178,2486,,6,252,972,594,2178,2486
+hierarchy-pool-12,"[1,2]",True,realizable,594,510,84,2178,2486,,6,252,972,594,2178,2486
+hierarchy-pool-22,"[2,2]",True,realizable,972,972,0,3420,4316,,0,252,972,972,3420,4316

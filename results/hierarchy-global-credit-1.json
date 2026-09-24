@@ -1,0 +1,28 @@
+{
+  "mode": "global-credit",
+  "observer": 1,
+  "conclusion": "interference",
+  "shortest_ticks": 1,
+  "trace": [
+    {
+      "left_input": [
+        -1,
+        0
+      ],
+      "right_input": [
+        0,
+        0
+      ],
+      "left_output": [
+        1,
+        []
+      ],
+      "right_output": [
+        0,
+        []
+      ]
+    }
+  ],
+  "visited_pairs": 11,
+  "checked_edges": 11
+}

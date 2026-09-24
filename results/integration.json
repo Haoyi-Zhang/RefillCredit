@@ -1,0 +1,118 @@
+{
+  "family": "integration",
+  "block": 0,
+  "workers": 1,
+  "randomness": "none; complete stated parameter grids",
+  "cpu_seconds": 0.21113634400000003,
+  "wall_seconds": 0.21085319899998467,
+  "peak_rss_kib": 96552,
+  "case_count": 5,
+  "all_oracle_checks_passed": true,
+  "cases": [
+    {
+      "name": "hierarchy-pool-02",
+      "capacities": [
+        0,
+        2
+      ],
+      "hall": false,
+      "conclusion": "unrealizable",
+      "states": 312,
+      "winning_states": 0,
+      "losing_states": 312,
+      "environment_moves": 1224,
+      "allocator_edges": 1168,
+      "initial_rejection_depth": 1,
+      "max_rank": 10,
+      "logical_nodes": 252,
+      "transitions_checked": 972,
+      "states_checked": 312,
+      "input_obligations_checked": 1224,
+      "allocator_edges_checked": 1168
+    },
+    {
+      "name": "hierarchy-pool-11",
+      "capacities": [
+        1,
+        1
+      ],
+      "hall": true,
+      "conclusion": "unrealizable",
+      "states": 312,
+      "winning_states": 0,
+      "losing_states": 312,
+      "environment_moves": 1224,
+      "allocator_edges": 1168,
+      "initial_rejection_depth": 3,
+      "max_rank": 10,
+      "logical_nodes": 252,
+      "transitions_checked": 972,
+      "states_checked": 312,
+      "input_obligations_checked": 1224,
+      "allocator_edges_checked": 1168
+    },
+    {
+      "name": "hierarchy-pool-21",
+      "capacities": [
+        2,
+        1
+      ],
+      "hall": true,
+      "conclusion": "realizable",
+      "states": 594,
+      "winning_states": 510,
+      "losing_states": 84,
+      "environment_moves": 2178,
+      "allocator_edges": 2486,
+      "initial_rejection_depth": null,
+      "max_rank": 6,
+      "logical_nodes": 252,
+      "transitions_checked": 972,
+      "states_checked": 594,
+      "input_obligations_checked": 2178,
+      "allocator_edges_checked": 2486
+    },
+    {
+      "name": "hierarchy-pool-12",
+      "capacities": [
+        1,
+        2
+      ],
+      "hall": true,
+      "conclusion": "realizable",
+      "states": 594,
+      "winning_states": 510,
+      "losing_states": 84,
+      "environment_moves": 2178,
+      "allocator_edges": 2486,
+      "initial_rejection_depth": null,
+      "max_rank": 6,
+      "logical_nodes": 252,
+      "transitions_checked": 972,
+      "states_checked": 594,
+      "input_obligations_checked": 2178,
+      "allocator_edges_checked": 2486
+    },
+    {
+      "name": "hierarchy-pool-22",
+      "capacities": [
+        2,
+        2
+      ],
+      "hall": true,
+      "conclusion": "realizable",
+      "states": 972,
+      "winning_states": 972,
+      "losing_states": 0,
+      "environment_moves": 3420,
+      "allocator_edges": 4316,
+      "initial_rejection_depth": null,
+      "max_rank": 0,
+      "logical_nodes": 252,
+      "transitions_checked": 972,
+      "states_checked": 972,
+      "input_obligations_checked": 3420,
+      "allocator_edges_checked": 4316
+    }
+  ]
+}

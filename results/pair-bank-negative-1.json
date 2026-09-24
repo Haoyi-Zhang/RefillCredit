@@ -1,0 +1,40 @@
+{
+  "conclusion": "interference",
+  "shortest_ticks": 1,
+  "trace": [
+    {
+      "left_input": [
+        -1,
+        0
+      ],
+      "right_input": [
+        0,
+        0
+      ],
+      "left_output": [
+        1,
+        []
+      ],
+      "right_output": [
+        0,
+        []
+      ]
+    }
+  ],
+  "visited_pairs": 18,
+  "checked_edges": 18,
+  "capacities": [
+    1,
+    1,
+    0
+  ],
+  "observer": 1,
+  "verification": {
+    "independent_obligations": 0,
+    "checked": true
+  },
+  "workers": 1,
+  "cpu_seconds": 0.0,
+  "wall_seconds": 0.00017165300005217432,
+  "peak_rss_kib": 94776
+}

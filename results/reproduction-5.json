@@ -1,0 +1,75 @@
+{
+  "part": 5,
+  "all_commands_succeeded": true,
+  "semantic_results_equal": true,
+  "commands": [
+    {
+      "command": [
+        "python",
+        "src/greedy.py",
+        "--case",
+        "pilot"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/greedy.py",
+        "--case",
+        "two-bank"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/greedy.py",
+        "--case",
+        "three-bank",
+        "--block",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/greedy.py",
+        "--case",
+        "three-bank",
+        "--block",
+        "1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/greedy.py",
+        "--case",
+        "three-bank",
+        "--block",
+        "2"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/greedy.py",
+        "--case",
+        "three-bank",
+        "--block",
+        "3"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "compared_result_files": 71,
+  "compared_input_files": 8,
+  "child_cpu_seconds": 5.441121,
+  "wall_seconds": 5.750536565999937,
+  "max_child_rss_kib": 95508,
+  "measurement_note": "maximum individual child RSS, not aggregate system RSS; parent orchestrates sequentially"
+}

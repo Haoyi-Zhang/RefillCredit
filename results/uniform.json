@@ -1,0 +1,1330 @@
+{
+  "case_count": 80,
+  "cases": [
+    {
+      "banks": 2,
+      "tenants": 1,
+      "eligibility_size": 1,
+      "types": 2,
+      "pooled_minimum": 2,
+      "dedicated_minimum": 2,
+      "witness_capacity": [
+        1,
+        1
+      ],
+      "vectors_checked": 4,
+      "subset_checks": 6
+    },
+    {
+      "banks": 2,
+      "tenants": 1,
+      "eligibility_size": 2,
+      "types": 1,
+      "pooled_minimum": 1,
+      "dedicated_minimum": 1,
+      "witness_capacity": [
+        0,
+        1
+      ],
+      "vectors_checked": 2,
+      "subset_checks": 2
+    },
+    {
+      "banks": 2,
+      "tenants": 2,
+      "eligibility_size": 1,
+      "types": 2,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        2,
+        2
+      ],
+      "vectors_checked": 9,
+      "subset_checks": 12
+    },
+    {
+      "banks": 2,
+      "tenants": 2,
+      "eligibility_size": 2,
+      "types": 1,
+      "pooled_minimum": 2,
+      "dedicated_minimum": 2,
+      "witness_capacity": [
+        0,
+        2
+      ],
+      "vectors_checked": 4,
+      "subset_checks": 4
+    },
+    {
+      "banks": 2,
+      "tenants": 3,
+      "eligibility_size": 1,
+      "types": 2,
+      "pooled_minimum": 6,
+      "dedicated_minimum": 6,
+      "witness_capacity": [
+        3,
+        3
+      ],
+      "vectors_checked": 16,
+      "subset_checks": 20
+    },
+    {
+      "banks": 2,
+      "tenants": 3,
+      "eligibility_size": 2,
+      "types": 1,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 3,
+      "witness_capacity": [
+        0,
+        3
+      ],
+      "vectors_checked": 7,
+      "subset_checks": 7
+    },
+    {
+      "banks": 2,
+      "tenants": 4,
+      "eligibility_size": 1,
+      "types": 2,
+      "pooled_minimum": 8,
+      "dedicated_minimum": 8,
+      "witness_capacity": [
+        4,
+        4
+      ],
+      "vectors_checked": 25,
+      "subset_checks": 30
+    },
+    {
+      "banks": 2,
+      "tenants": 4,
+      "eligibility_size": 2,
+      "types": 1,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        0,
+        4
+      ],
+      "vectors_checked": 11,
+      "subset_checks": 11
+    },
+    {
+      "banks": 3,
+      "tenants": 1,
+      "eligibility_size": 1,
+      "types": 3,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 3,
+      "witness_capacity": [
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 8,
+      "subset_checks": 14
+    },
+    {
+      "banks": 3,
+      "tenants": 1,
+      "eligibility_size": 2,
+      "types": 3,
+      "pooled_minimum": 2,
+      "dedicated_minimum": 2,
+      "witness_capacity": [
+        0,
+        1,
+        1
+      ],
+      "vectors_checked": 5,
+      "subset_checks": 10
+    },
+    {
+      "banks": 3,
+      "tenants": 1,
+      "eligibility_size": 3,
+      "types": 1,
+      "pooled_minimum": 1,
+      "dedicated_minimum": 1,
+      "witness_capacity": [
+        0,
+        0,
+        1
+      ],
+      "vectors_checked": 2,
+      "subset_checks": 2
+    },
+    {
+      "banks": 3,
+      "tenants": 2,
+      "eligibility_size": 1,
+      "types": 3,
+      "pooled_minimum": 6,
+      "dedicated_minimum": 6,
+      "witness_capacity": [
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 27,
+      "subset_checks": 39
+    },
+    {
+      "banks": 3,
+      "tenants": 2,
+      "eligibility_size": 2,
+      "types": 3,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 14,
+      "subset_checks": 21
+    },
+    {
+      "banks": 3,
+      "tenants": 2,
+      "eligibility_size": 3,
+      "types": 1,
+      "pooled_minimum": 2,
+      "dedicated_minimum": 2,
+      "witness_capacity": [
+        0,
+        0,
+        2
+      ],
+      "vectors_checked": 5,
+      "subset_checks": 5
+    },
+    {
+      "banks": 3,
+      "tenants": 3,
+      "eligibility_size": 1,
+      "types": 3,
+      "pooled_minimum": 9,
+      "dedicated_minimum": 9,
+      "witness_capacity": [
+        3,
+        3,
+        3
+      ],
+      "vectors_checked": 64,
+      "subset_checks": 84
+    },
+    {
+      "banks": 3,
+      "tenants": 3,
+      "eligibility_size": 2,
+      "types": 3,
+      "pooled_minimum": 5,
+      "dedicated_minimum": 6,
+      "witness_capacity": [
+        1,
+        2,
+        2
+      ],
+      "vectors_checked": 36,
+      "subset_checks": 54
+    },
+    {
+      "banks": 3,
+      "tenants": 3,
+      "eligibility_size": 3,
+      "types": 1,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 3,
+      "witness_capacity": [
+        0,
+        0,
+        3
+      ],
+      "vectors_checked": 11,
+      "subset_checks": 11
+    },
+    {
+      "banks": 3,
+      "tenants": 4,
+      "eligibility_size": 1,
+      "types": 3,
+      "pooled_minimum": 12,
+      "dedicated_minimum": 12,
+      "witness_capacity": [
+        4,
+        4,
+        4
+      ],
+      "vectors_checked": 125,
+      "subset_checks": 155
+    },
+    {
+      "banks": 3,
+      "tenants": 4,
+      "eligibility_size": 2,
+      "types": 3,
+      "pooled_minimum": 6,
+      "dedicated_minimum": 8,
+      "witness_capacity": [
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 63,
+      "subset_checks": 86
+    },
+    {
+      "banks": 3,
+      "tenants": 4,
+      "eligibility_size": 3,
+      "types": 1,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        0,
+        0,
+        4
+      ],
+      "vectors_checked": 21,
+      "subset_checks": 21
+    },
+    {
+      "banks": 4,
+      "tenants": 1,
+      "eligibility_size": 1,
+      "types": 4,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 16,
+      "subset_checks": 30
+    },
+    {
+      "banks": 4,
+      "tenants": 1,
+      "eligibility_size": 2,
+      "types": 6,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 3,
+      "witness_capacity": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 12,
+      "subset_checks": 36
+    },
+    {
+      "banks": 4,
+      "tenants": 1,
+      "eligibility_size": 3,
+      "types": 4,
+      "pooled_minimum": 2,
+      "dedicated_minimum": 2,
+      "witness_capacity": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "vectors_checked": 6,
+      "subset_checks": 15
+    },
+    {
+      "banks": 4,
+      "tenants": 1,
+      "eligibility_size": 4,
+      "types": 1,
+      "pooled_minimum": 1,
+      "dedicated_minimum": 1,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "vectors_checked": 2,
+      "subset_checks": 2
+    },
+    {
+      "banks": 4,
+      "tenants": 2,
+      "eligibility_size": 1,
+      "types": 4,
+      "pooled_minimum": 8,
+      "dedicated_minimum": 8,
+      "witness_capacity": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 81,
+      "subset_checks": 120
+    },
+    {
+      "banks": 4,
+      "tenants": 2,
+      "eligibility_size": 2,
+      "types": 6,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 6,
+      "witness_capacity": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 41,
+      "subset_checks": 71
+    },
+    {
+      "banks": 4,
+      "tenants": 2,
+      "eligibility_size": 3,
+      "types": 4,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 19,
+      "subset_checks": 33
+    },
+    {
+      "banks": 4,
+      "tenants": 2,
+      "eligibility_size": 4,
+      "types": 1,
+      "pooled_minimum": 2,
+      "dedicated_minimum": 2,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "vectors_checked": 6,
+      "subset_checks": 6
+    },
+    {
+      "banks": 4,
+      "tenants": 3,
+      "eligibility_size": 1,
+      "types": 4,
+      "pooled_minimum": 12,
+      "dedicated_minimum": 12,
+      "witness_capacity": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "vectors_checked": 256,
+      "subset_checks": 340
+    },
+    {
+      "banks": 4,
+      "tenants": 3,
+      "eligibility_size": 2,
+      "types": 6,
+      "pooled_minimum": 7,
+      "dedicated_minimum": 9,
+      "witness_capacity": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 161,
+      "subset_checks": 303
+    },
+    {
+      "banks": 4,
+      "tenants": 3,
+      "eligibility_size": 3,
+      "types": 4,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 6,
+      "witness_capacity": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 53,
+      "subset_checks": 83
+    },
+    {
+      "banks": 4,
+      "tenants": 3,
+      "eligibility_size": 4,
+      "types": 1,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 3,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "vectors_checked": 16,
+      "subset_checks": 16
+    },
+    {
+      "banks": 4,
+      "tenants": 4,
+      "eligibility_size": 1,
+      "types": 4,
+      "pooled_minimum": 16,
+      "dedicated_minimum": 16,
+      "witness_capacity": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "vectors_checked": 625,
+      "subset_checks": 780
+    },
+    {
+      "banks": 4,
+      "tenants": 4,
+      "eligibility_size": 2,
+      "types": 6,
+      "pooled_minimum": 8,
+      "dedicated_minimum": 12,
+      "witness_capacity": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 313,
+      "subset_checks": 482
+    },
+    {
+      "banks": 4,
+      "tenants": 4,
+      "eligibility_size": 3,
+      "types": 4,
+      "pooled_minimum": 6,
+      "dedicated_minimum": 8,
+      "witness_capacity": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 132,
+      "subset_checks": 217
+    },
+    {
+      "banks": 4,
+      "tenants": 4,
+      "eligibility_size": 4,
+      "types": 1,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "vectors_checked": 36,
+      "subset_checks": 36
+    },
+    {
+      "banks": 5,
+      "tenants": 1,
+      "eligibility_size": 1,
+      "types": 5,
+      "pooled_minimum": 5,
+      "dedicated_minimum": 5,
+      "witness_capacity": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 32,
+      "subset_checks": 62
+    },
+    {
+      "banks": 5,
+      "tenants": 1,
+      "eligibility_size": 2,
+      "types": 10,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 27,
+      "subset_checks": 110
+    },
+    {
+      "banks": 5,
+      "tenants": 1,
+      "eligibility_size": 3,
+      "types": 10,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 3,
+      "witness_capacity": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 17,
+      "subset_checks": 81
+    },
+    {
+      "banks": 5,
+      "tenants": 1,
+      "eligibility_size": 4,
+      "types": 5,
+      "pooled_minimum": 2,
+      "dedicated_minimum": 2,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "vectors_checked": 7,
+      "subset_checks": 21
+    },
+    {
+      "banks": 5,
+      "tenants": 1,
+      "eligibility_size": 5,
+      "types": 1,
+      "pooled_minimum": 1,
+      "dedicated_minimum": 1,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "vectors_checked": 2,
+      "subset_checks": 2
+    },
+    {
+      "banks": 5,
+      "tenants": 2,
+      "eligibility_size": 1,
+      "types": 5,
+      "pooled_minimum": 10,
+      "dedicated_minimum": 10,
+      "witness_capacity": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 243,
+      "subset_checks": 363
+    },
+    {
+      "banks": 5,
+      "tenants": 2,
+      "eligibility_size": 2,
+      "types": 10,
+      "pooled_minimum": 5,
+      "dedicated_minimum": 8,
+      "witness_capacity": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 122,
+      "subset_checks": 240
+    },
+    {
+      "banks": 5,
+      "tenants": 2,
+      "eligibility_size": 3,
+      "types": 10,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 6,
+      "witness_capacity": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 61,
+      "subset_checks": 148
+    },
+    {
+      "banks": 5,
+      "tenants": 2,
+      "eligibility_size": 4,
+      "types": 5,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 25,
+      "subset_checks": 50
+    },
+    {
+      "banks": 5,
+      "tenants": 2,
+      "eligibility_size": 5,
+      "types": 1,
+      "pooled_minimum": 2,
+      "dedicated_minimum": 2,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "vectors_checked": 7,
+      "subset_checks": 7
+    },
+    {
+      "banks": 5,
+      "tenants": 3,
+      "eligibility_size": 1,
+      "types": 5,
+      "pooled_minimum": 15,
+      "dedicated_minimum": 15,
+      "witness_capacity": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "vectors_checked": 1024,
+      "subset_checks": 1364
+    },
+    {
+      "banks": 5,
+      "tenants": 3,
+      "eligibility_size": 2,
+      "types": 10,
+      "pooled_minimum": 9,
+      "dedicated_minimum": 12,
+      "witness_capacity": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 701,
+      "subset_checks": 1595
+    },
+    {
+      "banks": 5,
+      "tenants": 3,
+      "eligibility_size": 3,
+      "types": 10,
+      "pooled_minimum": 5,
+      "dedicated_minimum": 9,
+      "witness_capacity": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 179,
+      "subset_checks": 333
+    },
+    {
+      "banks": 5,
+      "tenants": 3,
+      "eligibility_size": 4,
+      "types": 5,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 6,
+      "witness_capacity": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 74,
+      "subset_checks": 125
+    },
+    {
+      "banks": 5,
+      "tenants": 3,
+      "eligibility_size": 5,
+      "types": 1,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 3,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "vectors_checked": 22,
+      "subset_checks": 22
+    },
+    {
+      "banks": 5,
+      "tenants": 4,
+      "eligibility_size": 1,
+      "types": 5,
+      "pooled_minimum": 20,
+      "dedicated_minimum": 20,
+      "witness_capacity": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "vectors_checked": 3125,
+      "subset_checks": 3905
+    },
+    {
+      "banks": 5,
+      "tenants": 4,
+      "eligibility_size": 2,
+      "types": 10,
+      "pooled_minimum": 10,
+      "dedicated_minimum": 16,
+      "witness_capacity": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 1563,
+      "subset_checks": 2715
+    },
+    {
+      "banks": 5,
+      "tenants": 4,
+      "eligibility_size": 3,
+      "types": 10,
+      "pooled_minimum": 8,
+      "dedicated_minimum": 12,
+      "witness_capacity": [
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 730,
+      "subset_checks": 1693
+    },
+    {
+      "banks": 5,
+      "tenants": 4,
+      "eligibility_size": 4,
+      "types": 5,
+      "pooled_minimum": 5,
+      "dedicated_minimum": 8,
+      "witness_capacity": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 199,
+      "subset_checks": 332
+    },
+    {
+      "banks": 5,
+      "tenants": 4,
+      "eligibility_size": 5,
+      "types": 1,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "vectors_checked": 57,
+      "subset_checks": 57
+    },
+    {
+      "banks": 6,
+      "tenants": 1,
+      "eligibility_size": 1,
+      "types": 6,
+      "pooled_minimum": 6,
+      "dedicated_minimum": 6,
+      "witness_capacity": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 64,
+      "subset_checks": 126
+    },
+    {
+      "banks": 6,
+      "tenants": 1,
+      "eligibility_size": 2,
+      "types": 15,
+      "pooled_minimum": 5,
+      "dedicated_minimum": 5,
+      "witness_capacity": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 58,
+      "subset_checks": 302
+    },
+    {
+      "banks": 6,
+      "tenants": 1,
+      "eligibility_size": 3,
+      "types": 20,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 43,
+      "subset_checks": 351
+    },
+    {
+      "banks": 6,
+      "tenants": 1,
+      "eligibility_size": 4,
+      "types": 15,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 3,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 23,
+      "subset_checks": 162
+    },
+    {
+      "banks": 6,
+      "tenants": 1,
+      "eligibility_size": 5,
+      "types": 6,
+      "pooled_minimum": 2,
+      "dedicated_minimum": 2,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "vectors_checked": 8,
+      "subset_checks": 28
+    },
+    {
+      "banks": 6,
+      "tenants": 1,
+      "eligibility_size": 6,
+      "types": 1,
+      "pooled_minimum": 1,
+      "dedicated_minimum": 1,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "vectors_checked": 2,
+      "subset_checks": 2
+    },
+    {
+      "banks": 6,
+      "tenants": 2,
+      "eligibility_size": 1,
+      "types": 6,
+      "pooled_minimum": 12,
+      "dedicated_minimum": 12,
+      "witness_capacity": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 729,
+      "subset_checks": 1092
+    },
+    {
+      "banks": 6,
+      "tenants": 2,
+      "eligibility_size": 2,
+      "types": 15,
+      "pooled_minimum": 6,
+      "dedicated_minimum": 10,
+      "witness_capacity": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 365,
+      "subset_checks": 810
+    },
+    {
+      "banks": 6,
+      "tenants": 2,
+      "eligibility_size": 3,
+      "types": 20,
+      "pooled_minimum": 5,
+      "dedicated_minimum": 8,
+      "witness_capacity": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 194,
+      "subset_checks": 674
+    },
+    {
+      "banks": 6,
+      "tenants": 2,
+      "eligibility_size": 4,
+      "types": 15,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 6,
+      "witness_capacity": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 88,
+      "subset_checks": 305
+    },
+    {
+      "banks": 6,
+      "tenants": 2,
+      "eligibility_size": 5,
+      "types": 6,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 32,
+      "subset_checks": 73
+    },
+    {
+      "banks": 6,
+      "tenants": 2,
+      "eligibility_size": 6,
+      "types": 1,
+      "pooled_minimum": 2,
+      "dedicated_minimum": 2,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "vectors_checked": 8,
+      "subset_checks": 8
+    },
+    {
+      "banks": 6,
+      "tenants": 3,
+      "eligibility_size": 1,
+      "types": 6,
+      "pooled_minimum": 18,
+      "dedicated_minimum": 18,
+      "witness_capacity": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "vectors_checked": 4096,
+      "subset_checks": 5460
+    },
+    {
+      "banks": 6,
+      "tenants": 3,
+      "eligibility_size": 2,
+      "types": 15,
+      "pooled_minimum": 11,
+      "dedicated_minimum": 15,
+      "witness_capacity": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 2993,
+      "subset_checks": 8066
+    },
+    {
+      "banks": 6,
+      "tenants": 3,
+      "eligibility_size": 3,
+      "types": 20,
+      "pooled_minimum": 6,
+      "dedicated_minimum": 12,
+      "witness_capacity": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 613,
+      "subset_checks": 1378
+    },
+    {
+      "banks": 6,
+      "tenants": 3,
+      "eligibility_size": 4,
+      "types": 15,
+      "pooled_minimum": 5,
+      "dedicated_minimum": 9,
+      "witness_capacity": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 262,
+      "subset_checks": 629
+    },
+    {
+      "banks": 6,
+      "tenants": 3,
+      "eligibility_size": 5,
+      "types": 6,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 6,
+      "witness_capacity": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 102,
+      "subset_checks": 189
+    },
+    {
+      "banks": 6,
+      "tenants": 3,
+      "eligibility_size": 6,
+      "types": 1,
+      "pooled_minimum": 3,
+      "dedicated_minimum": 3,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "vectors_checked": 29,
+      "subset_checks": 29
+    },
+    {
+      "banks": 6,
+      "tenants": 4,
+      "eligibility_size": 1,
+      "types": 6,
+      "pooled_minimum": 24,
+      "dedicated_minimum": 24,
+      "witness_capacity": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "vectors_checked": 15625,
+      "subset_checks": 19530
+    },
+    {
+      "banks": 6,
+      "tenants": 4,
+      "eligibility_size": 2,
+      "types": 15,
+      "pooled_minimum": 12,
+      "dedicated_minimum": 20,
+      "witness_capacity": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 7813,
+      "subset_checks": 15125
+    },
+    {
+      "banks": 6,
+      "tenants": 4,
+      "eligibility_size": 3,
+      "types": 20,
+      "pooled_minimum": 10,
+      "dedicated_minimum": 16,
+      "witness_capacity": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "vectors_checked": 3936,
+      "subset_checks": 12945
+    },
+    {
+      "banks": 6,
+      "tenants": 4,
+      "eligibility_size": 4,
+      "types": 15,
+      "pooled_minimum": 6,
+      "dedicated_minimum": 12,
+      "witness_capacity": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 714,
+      "subset_checks": 1501
+    },
+    {
+      "banks": 6,
+      "tenants": 4,
+      "eligibility_size": 5,
+      "types": 6,
+      "pooled_minimum": 5,
+      "dedicated_minimum": 8,
+      "witness_capacity": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "vectors_checked": 283,
+      "subset_checks": 487
+    },
+    {
+      "banks": 6,
+      "tenants": 4,
+      "eligibility_size": 6,
+      "types": 1,
+      "pooled_minimum": 4,
+      "dedicated_minimum": 4,
+      "witness_capacity": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "vectors_checked": 85,
+      "subset_checks": 85
+    }
+  ],
+  "all_oracle_checks_passed": true,
+  "workers": 1,
+  "cpu_seconds": 0.039980026,
+  "wall_seconds": 0.03855229500004498,
+  "peak_rss_kib": 96168
+}

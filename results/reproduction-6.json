@@ -1,0 +1,55 @@
+{
+  "part": 6,
+  "all_commands_succeeded": true,
+  "semantic_results_equal": true,
+  "commands": [
+    {
+      "command": [
+        "python",
+        "src/recheck_pilots.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/oracle_crosscheck.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/check_tests.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/audit_reference_ledger.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/report.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/audit_results.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "compared_result_files": 71,
+  "compared_input_files": 8,
+  "child_cpu_seconds": 5.668906,
+  "wall_seconds": 5.981829281999808,
+  "max_child_rss_kib": 106384,
+  "measurement_note": "maximum individual child RSS, not aggregate system RSS; parent orchestrates sequentially"
+}

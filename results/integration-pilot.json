@@ -1,0 +1,81 @@
+{
+  "cpu_seconds": 0.10129097500000006,
+  "wall_seconds": 0.10130283000000873,
+  "peak_rss_kib": 95024,
+  "workers": 1,
+  "cases": [
+    {
+      "name": "hierarchy-pool-11",
+      "hall": true,
+      "conclusion": "unrealizable",
+      "states": 312,
+      "winning_states": 0,
+      "losing_states": 312,
+      "environment_moves": 1224,
+      "allocator_edges": 1168,
+      "initial_rejection_depth": 3,
+      "max_rank": 10,
+      "logical_nodes": 252,
+      "transitions_checked": 972,
+      "states_checked": 312,
+      "input_obligations_checked": 1224,
+      "allocator_edges_checked": 1168
+    },
+    {
+      "name": "hierarchy-pool-21",
+      "hall": true,
+      "conclusion": "realizable",
+      "states": 594,
+      "winning_states": 510,
+      "losing_states": 84,
+      "environment_moves": 2178,
+      "allocator_edges": 2486,
+      "initial_rejection_depth": null,
+      "max_rank": 6,
+      "logical_nodes": 252,
+      "transitions_checked": 972,
+      "states_checked": 594,
+      "input_obligations_checked": 2178,
+      "allocator_edges_checked": 2486
+    },
+    {
+      "name": "graph-m4-n2-g7",
+      "hall": true,
+      "independence": 3,
+      "conclusion": "realizable",
+      "states": 50,
+      "winning_states": 44,
+      "losing_states": 6,
+      "environment_moves": 74,
+      "allocator_edges": 85,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "name": "graph-m4-n2-g13",
+      "hall": true,
+      "independence": 2,
+      "conclusion": "realizable",
+      "states": 50,
+      "winning_states": 44,
+      "losing_states": 6,
+      "environment_moves": 74,
+      "allocator_edges": 85,
+      "initial_rejection_depth": null,
+      "max_rank": 1
+    },
+    {
+      "name": "graph-m4-n2-g63",
+      "hall": true,
+      "independence": 1,
+      "conclusion": "unrealizable",
+      "states": 86,
+      "winning_states": 73,
+      "losing_states": 13,
+      "environment_moves": 146,
+      "allocator_edges": 157,
+      "initial_rejection_depth": 2,
+      "max_rank": 2
+    }
+  ]
+}

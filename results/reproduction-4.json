@@ -1,0 +1,87 @@
+{
+  "part": 4,
+  "all_commands_succeeded": true,
+  "semantic_results_equal": true,
+  "commands": [
+    {
+      "command": [
+        "python",
+        "src/pooled_hierarchy.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/verify_pooled.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/uniform.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/pair_bank.py",
+        "--case",
+        "pilot"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/pair_bank.py",
+        "--case",
+        "protected",
+        "--observer",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/pair_bank.py",
+        "--case",
+        "protected",
+        "--observer",
+        "1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/pair_bank.py",
+        "--case",
+        "negative",
+        "--observer",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/pair_bank.py",
+        "--case",
+        "negative",
+        "--observer",
+        "1"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "compared_result_files": 71,
+  "compared_input_files": 8,
+  "child_cpu_seconds": 17.666634,
+  "wall_seconds": 18.00804443900006,
+  "max_child_rss_kib": 104392,
+  "measurement_note": "maximum individual child RSS, not aggregate system RSS; parent orchestrates sequentially"
+}

@@ -1,0 +1,122 @@
+{
+  "family": "pilot",
+  "block": 0,
+  "case_count": 3,
+  "cases": [
+    {
+      "capacities": [
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": false,
+      "states": 7,
+      "winning_states": 0,
+      "losing_states": 7,
+      "environment_moves": 24,
+      "allocator_edges": 23,
+      "initial_rejection_depth": 2,
+      "max_rank": 3
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ],
+      "all_choices_safe": false,
+      "realizable": true,
+      "states": 13,
+      "winning_states": 10,
+      "losing_states": 3,
+      "environment_moves": 43,
+      "allocator_edges": 49,
+      "initial_rejection_depth": null,
+      "max_rank": 2
+    },
+    {
+      "capacities": [
+        1,
+        1,
+        1
+      ],
+      "families": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "all_choices_safe": true,
+      "realizable": true,
+      "states": 37,
+      "winning_states": 37,
+      "losing_states": 0,
+      "environment_moves": 139,
+      "allocator_edges": 157,
+      "initial_rejection_depth": null,
+      "max_rank": 0
+    }
+  ],
+  "all_choices_safe": 1,
+  "realizable": 2,
+  "all_oracle_checks_passed": true,
+  "workers": 1,
+  "cpu_seconds": 0.003989465000000025,
+  "wall_seconds": 0.005435088000012911,
+  "peak_rss_kib": 94760
+}

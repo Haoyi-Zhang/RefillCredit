@@ -1,0 +1,16 @@
+{
+  "positive": {
+    "physical_states": 334,
+    "transitions": 5344,
+    "projection_failures": 0
+  },
+  "negative": {
+    "physical_states": 232,
+    "transitions": 3712,
+    "projection_failures": 494
+  },
+  "workers": 1,
+  "cpu_seconds": 0.08399163000000004,
+  "wall_seconds": 0.0870010410001214,
+  "peak_rss_kib": 94764
+}

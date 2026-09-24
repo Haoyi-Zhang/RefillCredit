@@ -1,0 +1,18 @@
+{
+  "fork_cases": 280,
+  "fork_pointwise_feasible": 61,
+  "fork_persistent_feasible": 47,
+  "graph_cases": 4296,
+  "graph_persistent_feasible": 2906,
+  "greedy_cases": 1225,
+  "greedy_realizable": 748,
+  "greedy_all_choices_safe": 264,
+  "greedy_policy_dependent_realizable": 484,
+  "graph_max_mapped_states": 602,
+  "uniform_cases": 80,
+  "independent_oracle_cases": 484,
+  "core_recorded_cpu_seconds": 79.319951385,
+  "largest_recorded_process_rss_kib": 102192,
+  "resource_boundary": "one worker per chunk; CPU checker measurements, not device performance",
+  "measurement_scope": "main finite campaign and the pair-bank pilot; excludes earlier exploratory pilots, compilation and packaging"
+}

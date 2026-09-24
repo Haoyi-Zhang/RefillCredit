@@ -1,0 +1,160 @@
+{
+  "semantics": "persistent",
+  "conclusion": "realizable",
+  "states": [
+    [
+      "start",
+      []
+    ],
+    [
+      "hold",
+      [
+        0
+      ]
+    ],
+    [
+      "hold",
+      [
+        1
+      ]
+    ],
+    [
+      "hold",
+      [
+        2
+      ]
+    ],
+    [
+      "drain",
+      []
+    ],
+    [
+      "idlehold",
+      []
+    ],
+    [
+      "branch0",
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      "branch0",
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      "branch0",
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      "branch0",
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      "idlebranch0",
+      [
+        0
+      ]
+    ],
+    [
+      "idlebranch0",
+      [
+        1
+      ]
+    ],
+    [
+      "branch1",
+      [
+        2,
+        0
+      ]
+    ],
+    [
+      "branch1",
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      "idlebranch1",
+      [
+        2
+      ]
+    ]
+  ],
+  "initial": 0,
+  "winning_policy": {
+    "0": {
+      "flex": 1,
+      "idle": 5
+    },
+    "1": {
+      "bank0": 8,
+      "bank1": 12
+    },
+    "2": {
+      "bank0": 6,
+      "bank1": 13
+    },
+    "4": {
+      "reset": 0
+    },
+    "5": {
+      "bank0": 10,
+      "bank1": 14
+    },
+    "6": {
+      "retire": 4
+    },
+    "7": {
+      "retire": 4
+    },
+    "8": {
+      "retire": 4
+    },
+    "9": {
+      "retire": 4
+    },
+    "10": {
+      "retire": 4
+    },
+    "11": {
+      "retire": 4
+    },
+    "12": {
+      "retire": 4
+    },
+    "13": {
+      "retire": 4
+    },
+    "14": {
+      "retire": 4
+    }
+  },
+  "losing": {
+    "3": {
+      "rank": 1,
+      "input": "bank1"
+    }
+  },
+  "summary": {
+    "states": 15,
+    "winning_states": 14,
+    "losing_states": 1,
+    "environment_moves": 20,
+    "allocator_edges": 23,
+    "initial_rejection_depth": null,
+    "max_rank": 1
+  }
+}

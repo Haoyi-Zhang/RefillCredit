@@ -1,0 +1,11 @@
+mode,observer,conclusion,shortest_ticks,visited_pairs,checked_edges,verification
+protected,0,noninterference,,630,17010,"{""relation_states"":630,""obligations_checked"":17010,""trace_ticks"":0}"
+protected,1,noninterference,,630,17010,"{""relation_states"":630,""obligations_checked"":17010,""trace_ticks"":0}"
+global-credit,0,interference,2,22,64,"{""relation_states"":12,""obligations_checked"":27,""trace_ticks"":2}"
+global-credit,1,interference,1,11,11,"{""relation_states"":1,""obligations_checked"":0,""trace_ticks"":1}"
+skip-idle,0,interference,2,103,272,"{""relation_states"":28,""obligations_checked"":27,""trace_ticks"":2}"
+skip-idle,1,interference,2,111,298,"{""relation_states"":28,""obligations_checked"":27,""trace_ticks"":2}"
+foreign-invalidate,0,interference,5,505,6787,"{""relation_states"":334,""obligations_checked"":4590,""trace_ticks"":5}"
+foreign-invalidate,1,interference,6,601,11323,"{""relation_states"":598,""obligations_checked"":11286,""trace_ticks"":6}"
+foreign-fill,0,interference,3,89,766,"{""relation_states"":86,""obligations_checked"":756,""trace_ticks"":3}"
+foreign-fill,1,interference,2,57,64,"{""relation_states"":28,""obligations_checked"":27,""trace_ticks"":2}"

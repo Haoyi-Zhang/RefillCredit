@@ -1,0 +1,157 @@
+{
+  "case_count": 10,
+  "cpu_seconds": 1.551491822,
+  "wall_seconds": 1.552267916000119,
+  "peak_rss_kib": 97832,
+  "workers": 1,
+  "cases": [
+    {
+      "observer": 0,
+      "conclusion": "noninterference",
+      "shortest_ticks": null,
+      "visited_pairs": 640,
+      "checked_edges": 17280,
+      "capacities": [
+        1,
+        1
+      ],
+      "policy": "first-fit",
+      "first_fit_reference": {
+        "reachable_physical_states": 92,
+        "reference_transitions": 828
+      }
+    },
+    {
+      "observer": 1,
+      "conclusion": "interference",
+      "shortest_ticks": 1,
+      "visited_pairs": 11,
+      "checked_edges": 11,
+      "capacities": [
+        1,
+        1
+      ],
+      "policy": "first-fit",
+      "first_fit_reference": {
+        "reachable_physical_states": 92,
+        "reference_transitions": 828
+      }
+    },
+    {
+      "observer": 0,
+      "conclusion": "noninterference",
+      "shortest_ticks": null,
+      "visited_pairs": 834,
+      "checked_edges": 22518,
+      "capacities": [
+        1,
+        2
+      ],
+      "policy": "first-fit",
+      "first_fit_reference": {
+        "reachable_physical_states": 106,
+        "reference_transitions": 954
+      }
+    },
+    {
+      "observer": 1,
+      "conclusion": "interference",
+      "shortest_ticks": 1,
+      "visited_pairs": 11,
+      "checked_edges": 11,
+      "capacities": [
+        1,
+        2
+      ],
+      "policy": "first-fit",
+      "first_fit_reference": {
+        "reachable_physical_states": 106,
+        "reference_transitions": 954
+      }
+    },
+    {
+      "observer": 0,
+      "conclusion": "noninterference",
+      "shortest_ticks": null,
+      "visited_pairs": 1306,
+      "checked_edges": 35262,
+      "capacities": [
+        1,
+        2
+      ],
+      "policy": "certified",
+      "first_fit_reference": null
+    },
+    {
+      "observer": 1,
+      "conclusion": "noninterference",
+      "shortest_ticks": null,
+      "visited_pairs": 1318,
+      "checked_edges": 35586,
+      "capacities": [
+        1,
+        2
+      ],
+      "policy": "certified",
+      "first_fit_reference": null
+    },
+    {
+      "observer": 0,
+      "conclusion": "noninterference",
+      "shortest_ticks": null,
+      "visited_pairs": 1024,
+      "checked_edges": 27648,
+      "capacities": [
+        2,
+        1
+      ],
+      "policy": "first-fit",
+      "first_fit_reference": {
+        "reachable_physical_states": 116,
+        "reference_transitions": 1044
+      }
+    },
+    {
+      "observer": 1,
+      "conclusion": "noninterference",
+      "shortest_ticks": null,
+      "visited_pairs": 1070,
+      "checked_edges": 28890,
+      "capacities": [
+        2,
+        1
+      ],
+      "policy": "first-fit",
+      "first_fit_reference": {
+        "reachable_physical_states": 116,
+        "reference_transitions": 1044
+      }
+    },
+    {
+      "observer": 0,
+      "conclusion": "noninterference",
+      "shortest_ticks": null,
+      "visited_pairs": 1024,
+      "checked_edges": 27648,
+      "capacities": [
+        2,
+        1
+      ],
+      "policy": "certified",
+      "first_fit_reference": null
+    },
+    {
+      "observer": 1,
+      "conclusion": "noninterference",
+      "shortest_ticks": null,
+      "visited_pairs": 1070,
+      "checked_edges": 28890,
+      "capacities": [
+        2,
+        1
+      ],
+      "policy": "certified",
+      "first_fit_reference": null
+    }
+  ]
+}

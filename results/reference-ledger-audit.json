@@ -1,0 +1,15 @@
+{
+  "all_reference_ledger_checks_passed": true,
+  "bibliography_manifest_rows": 32,
+  "calibration_categories": {
+    "adjacent-full": 5,
+    "influential-full": 5,
+    "same-venue-full": 12
+  },
+  "calibration_rows": 22,
+  "citation_resource_mappings": 32,
+  "errors": [],
+  "external_resource_rows": 43,
+  "persistent_identifiers_unique": 32,
+  "scope": "standalone local ledger consistency; remote publisher metadata was inspected separately and recorded in external_resources.csv"
+}

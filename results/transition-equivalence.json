@@ -1,0 +1,27 @@
+[
+  {
+    "mode": "protected",
+    "states": 90,
+    "transitions": 810
+  },
+  {
+    "mode": "global-credit",
+    "states": 66,
+    "transitions": 594
+  },
+  {
+    "mode": "skip-idle",
+    "states": 82,
+    "transitions": 738
+  },
+  {
+    "mode": "foreign-invalidate",
+    "states": 90,
+    "transitions": 810
+  },
+  {
+    "mode": "foreign-fill",
+    "states": 94,
+    "transitions": 846
+  }
+]

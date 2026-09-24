@@ -1,0 +1,123 @@
+{
+  "name": "fork-m2-c1-n1",
+  "capacities": [
+    2,
+    1
+  ],
+  "initial": "start",
+  "nodes": {
+    "start": {
+      "live": {},
+      "edges": [
+        {
+          "input": "flex",
+          "to": "hold"
+        },
+        {
+          "input": "idle",
+          "to": "idlehold"
+        }
+      ]
+    },
+    "hold": {
+      "live": {
+        "f0": [
+          0,
+          1
+        ]
+      },
+      "edges": [
+        {
+          "input": "bank0",
+          "to": "branch0"
+        },
+        {
+          "input": "bank1",
+          "to": "branch1"
+        }
+      ]
+    },
+    "drain": {
+      "live": {},
+      "edges": [
+        {
+          "input": "reset",
+          "to": "start"
+        }
+      ]
+    },
+    "idlehold": {
+      "live": {},
+      "edges": [
+        {
+          "input": "bank0",
+          "to": "idlebranch0"
+        },
+        {
+          "input": "bank1",
+          "to": "idlebranch1"
+        }
+      ]
+    },
+    "branch0": {
+      "live": {
+        "f0": [
+          0,
+          1
+        ],
+        "b0": [
+          0
+        ]
+      },
+      "edges": [
+        {
+          "input": "retire",
+          "to": "drain"
+        }
+      ]
+    },
+    "idlebranch0": {
+      "live": {
+        "b0": [
+          0
+        ]
+      },
+      "edges": [
+        {
+          "input": "retire",
+          "to": "drain"
+        }
+      ]
+    },
+    "branch1": {
+      "live": {
+        "f0": [
+          0,
+          1
+        ],
+        "b0": [
+          1
+        ]
+      },
+      "edges": [
+        {
+          "input": "retire",
+          "to": "drain"
+        }
+      ]
+    },
+    "idlebranch1": {
+      "live": {
+        "b0": [
+          1
+        ]
+      },
+      "edges": [
+        {
+          "input": "retire",
+          "to": "drain"
+        }
+      ]
+    }
+  }
+}
