@@ -1,28 +1,40 @@
 {
-  "part": 4,
   "all_commands_succeeded": true,
-  "semantic_results_equal": true,
+  "baseline_tree_unchanged": true,
+  "child_cpu_seconds": 16.312986,
   "commands": [
     {
       "command": [
         "python",
         "src/pooled_hierarchy.py"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{'observer': 0, 'conclusion': 'noninterference', 'shortest_ticks': None, 'visited_pairs': 640, 'checked_edges': 17280, 'capacities': [1, 1], 'policy': 'first-fit'}\n{'observer': 1, 'conclusion': 'interference', 'shortest_ticks': 1, 'visited_pairs': 11, 'checked_edges': 11, 'capacities': [1, 1], 'policy': 'first-fit'}\n{'observer': 0, 'conclusion': 'noninterference', 'shortest_ticks': None, 'visited_pairs': 834, 'checked_edges': 22518, 'capacities': [1, 2], 'policy': 'first-fit'}\n{'observer': 1, 'conclusion': 'interference', 'shortest_ticks': 1, 'visited_pairs': 11, 'checked_edges': 11, 'capacities': [1, 2], 'policy': 'first-fit'}\n{'observer': 0, 'conclusion': 'noninterference', 'shortest_ticks': None, 'visited_pairs': 1306, 'checked_edges': 35262, 'capacities': [1, 2], 'policy': 'certified'}\n{'observer': 1, 'conclusion': 'noninterference', 'shortest_ticks': None, 'visited_pairs': 1318, 'checked_edges': 35586, 'capacities': [1, 2], 'policy': 'certified'}\n{'observer': 0, 'conclusion': 'noninterference', 'shortest_ticks': None, 'visited_pairs': 1024, 'checked_edges': 27648, 'capacities': [2, 1], 'policy': 'first-fit'}\n{'observer': 1, 'conclusion': 'noninterference', 'shortest_ticks': None, 'visited_pairs': 1070, 'checked_edges': 28890, 'capacities': [2, 1], 'policy': 'first-fit'}\n{'observer': 0, 'conclusion': 'noninterference', 'shortest_ticks': None, 'visited_pairs': 1024, 'checked_edges': 27648, 'capacities': [2, 1], 'policy': 'certified'}\n{'observer': 1, 'conclusion': 'noninterference', 'shortest_ticks': None, 'visited_pairs': 1070, 'checked_edges': 28890, 'capacities': [2, 1], 'policy': 'certified'}\n{'case_count': 10, 'cpu_seconds': 1.4679401950000002, 'wall_seconds': 1.4674192569999605, 'peak_rss_kib': 97832, 'workers': 1}\n",
+      "timed_out": false,
+      "wall_seconds": 2.0191680650000308
     },
     {
       "command": [
         "python",
         "src/verify_pooled.py"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"case_count\": 10, \"all_checks_passed\": true, \"workers\": 1, \"cpu_seconds\": 2.523372923, \"wall_seconds\": 2.5264982930000315, \"peak_rss_kib\": 96808}\n",
+      "timed_out": false,
+      "wall_seconds": 3.0701653120000856
     },
     {
       "command": [
         "python",
         "src/uniform.py"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"case_count\": 80, \"all_oracle_checks_passed\": true, \"workers\": 1, \"cpu_seconds\": 0.04798838, \"wall_seconds\": 0.045205893000002106, \"peak_rss_kib\": 96172}\n",
+      "timed_out": false,
+      "wall_seconds": 0.6397566470000129
     },
     {
       "command": [
@@ -31,7 +43,11 @@
         "--case",
         "pilot"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"positive\": {\"physical_states\": 334, \"transitions\": 5344, \"projection_failures\": 0}, \"negative\": {\"physical_states\": 232, \"transitions\": 3712, \"projection_failures\": 494}, \"workers\": 1, \"cpu_seconds\": 0.083628331, \"wall_seconds\": 0.08037391499999558, \"peak_rss_kib\": 93608}\n",
+      "timed_out": false,
+      "wall_seconds": 0.6075065499999255
     },
     {
       "command": [
@@ -42,7 +58,11 @@
         "--observer",
         "0"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"conclusion\": \"noninterference\", \"shortest_ticks\": null, \"visited_pairs\": 5602, \"checked_edges\": 358528, \"capacities\": [1, 1, 1], \"observer\": 0, \"verification\": {\"independent_obligations\": 358528, \"checked\": true}, \"workers\": 1, \"cpu_seconds\": 3.750470856, \"wall_seconds\": 3.7500465060001034, \"peak_rss_kib\": 101672}\n",
+      "timed_out": false,
+      "wall_seconds": 4.289465646000053
     },
     {
       "command": [
@@ -53,7 +73,11 @@
         "--observer",
         "1"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"conclusion\": \"noninterference\", \"shortest_ticks\": null, \"visited_pairs\": 5734, \"checked_edges\": 366976, \"capacities\": [1, 1, 1], \"observer\": 1, \"verification\": {\"independent_obligations\": 366976, \"checked\": true}, \"workers\": 1, \"cpu_seconds\": 3.9398308760000003, \"wall_seconds\": 3.9413567149999835, \"peak_rss_kib\": 101808}\n",
+      "timed_out": false,
+      "wall_seconds": 4.53022205700006
     },
     {
       "command": [
@@ -64,7 +88,11 @@
         "--observer",
         "0"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"conclusion\": \"interference\", \"shortest_ticks\": 2, \"visited_pairs\": 86, \"checked_edges\": 145, \"capacities\": [1, 1, 0], \"observer\": 0, \"verification\": {\"independent_obligations\": 64, \"checked\": true}, \"workers\": 1, \"cpu_seconds\": 0.0, \"wall_seconds\": 0.0012803889999304374, \"peak_rss_kib\": 93480}\n",
+      "timed_out": false,
+      "wall_seconds": 0.5548107339999433
     },
     {
       "command": [
@@ -75,13 +103,128 @@
         "--observer",
         "1"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"conclusion\": \"interference\", \"shortest_ticks\": 1, \"visited_pairs\": 18, \"checked_edges\": 18, \"capacities\": [1, 1, 0], \"observer\": 1, \"verification\": {\"independent_obligations\": 0, \"checked\": true}, \"workers\": 1, \"cpu_seconds\": 0.0, \"wall_seconds\": 0.000199961000021176, \"peak_rss_kib\": 93352}\n",
+      "timed_out": false,
+      "wall_seconds": 0.6200397979999934
     }
   ],
-  "compared_result_files": 71,
-  "compared_input_files": 8,
-  "child_cpu_seconds": 17.666634,
-  "wall_seconds": 18.00804443900006,
-  "max_child_rss_kib": 104392,
-  "measurement_note": "maximum individual child RSS, not aggregate system RSS; parent orchestrates sequentially"
+  "compared_regenerated_files": 18,
+  "ignored_nondeterministic_result_fields": [
+    "core_recorded_cpu_seconds",
+    "cpu_seconds",
+    "largest_recorded_process_rss_kib",
+    "peak_rss_kib",
+    "wall_seconds"
+  ],
+  "max_child_rss_kib": 103584,
+  "measurement_note": "maximum individual child RSS, not aggregate system RSS; children run sequentially in an isolated copy",
+  "missing_generated_files": [],
+  "missing_retained_files": [],
+  "modified_retained_files": [],
+  "part": 4,
+  "regenerated_files": [
+    "results/pair-bank-negative-0.json",
+    "results/pair-bank-negative-1.json",
+    "results/pair-bank-pilot.json",
+    "results/pair-bank-protected-0.json",
+    "results/pair-bank-protected-1.json",
+    "results/pooled-11-first-fit-0.json",
+    "results/pooled-11-first-fit-1.json",
+    "results/pooled-12-certified-0.json",
+    "results/pooled-12-certified-1.json",
+    "results/pooled-12-first-fit-0.json",
+    "results/pooled-12-first-fit-1.json",
+    "results/pooled-21-certified-0.json",
+    "results/pooled-21-certified-1.json",
+    "results/pooled-21-first-fit-0.json",
+    "results/pooled-21-first-fit-1.json",
+    "results/pooled-hierarchy.json",
+    "results/pooled-verification.json",
+    "results/uniform.json"
+  ],
+  "required_outputs_complete": true,
+  "retained_files": [
+    "inputs/fork-three-entries.json",
+    "inputs/fork-two-entries.json",
+    "inputs/hierarchy-pool-02.json",
+    "inputs/hierarchy-pool-11.json",
+    "inputs/hierarchy-pool-12.json",
+    "inputs/hierarchy-pool-21.json",
+    "inputs/hierarchy-pool-22.json",
+    "inputs/missing-bank.json",
+    "results/fork-three-entries.certificate.json",
+    "results/fork-two-entries.certificate.json",
+    "results/forks.json",
+    "results/graphs-00.json",
+    "results/graphs-01.json",
+    "results/graphs-02.json",
+    "results/graphs-03.json",
+    "results/graphs-04.json",
+    "results/graphs-05.json",
+    "results/graphs-06.json",
+    "results/graphs-07.json",
+    "results/graphs-08.json",
+    "results/graphs-09.json",
+    "results/graphs-10.json",
+    "results/graphs-11.json",
+    "results/graphs-12.json",
+    "results/graphs-13.json",
+    "results/graphs-14.json",
+    "results/graphs-15.json",
+    "results/graphs-16.json",
+    "results/greedy-pilot.json",
+    "results/greedy-three-bank-0.json",
+    "results/greedy-three-bank-1.json",
+    "results/greedy-three-bank-2.json",
+    "results/greedy-three-bank-3.json",
+    "results/greedy-two-bank.json",
+    "results/hierarchy-foreign-fill-0.json",
+    "results/hierarchy-foreign-fill-1.json",
+    "results/hierarchy-foreign-two-level-invalidate-0.json",
+    "results/hierarchy-foreign-two-level-invalidate-1.json",
+    "results/hierarchy-global-credit-0.json",
+    "results/hierarchy-global-credit-1.json",
+    "results/hierarchy-pool-02.certificate.json",
+    "results/hierarchy-pool-11.certificate.json",
+    "results/hierarchy-pool-12.certificate.json",
+    "results/hierarchy-pool-21.certificate.json",
+    "results/hierarchy-pool-22.certificate.json",
+    "results/hierarchy-protected-0.json",
+    "results/hierarchy-protected-1.json",
+    "results/hierarchy-skip-idle-0.json",
+    "results/hierarchy-skip-idle-1.json",
+    "results/hierarchy.json",
+    "results/integration-pilot.json",
+    "results/integration.json",
+    "results/missing-bank.certificate.json",
+    "results/numerical-audit.json",
+    "results/oracle-crosscheck.json",
+    "results/pilot-recheck.json",
+    "results/pilot.json",
+    "results/reference-ledger-audit.json",
+    "results/reproduction-0.json",
+    "results/reproduction-1.json",
+    "results/reproduction-2.json",
+    "results/reproduction-3.json",
+    "results/reproduction-4.json",
+    "results/reproduction-5.json",
+    "results/reproduction-6.json",
+    "results/summary.json",
+    "results/transition-equivalence.json",
+    "results/unit-tests.json",
+    "tables/fork-capacity.csv",
+    "tables/hierarchy.csv",
+    "tables/integration.csv",
+    "tables/policy-independence.csv",
+    "tables/pooled-hierarchy.csv",
+    "tables/reserve-graphs.csv",
+    "tables/uniform-capacity.csv"
+  ],
+  "semantic_mismatches": [],
+  "semantic_results_equal": true,
+  "unexpected_tracked_files": [],
+  "verified_retained_files_unchanged": 75,
+  "wall_seconds": 16.539832852999893
 }

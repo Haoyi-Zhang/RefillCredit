@@ -225,7 +225,7 @@
       ]
     },
     {
-      "claim": "logical fault foreign-invalidate",
+      "claim": "logical fault foreign-two-level-invalidate",
       "value": [
         5,
         6
@@ -318,7 +318,7 @@
     {
       "claim": "unit tests",
       "value": [
-        55,
+        62,
         0,
         0,
         true

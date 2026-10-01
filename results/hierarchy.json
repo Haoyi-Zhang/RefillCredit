@@ -3,9 +3,9 @@
   "block": 0,
   "workers": 1,
   "randomness": "none; complete stated parameter grids",
-  "cpu_seconds": 0.5635972829999999,
-  "wall_seconds": 0.5630298049998146,
-  "peak_rss_kib": 95400,
+  "cpu_seconds": 0.5313000470000001,
+  "wall_seconds": 0.5341200450000088,
+  "peak_rss_kib": 95440,
   "case_count": 10,
   "all_oracle_checks_passed": true,
   "cases": [
@@ -88,7 +88,7 @@
       }
     },
     {
-      "mode": "foreign-invalidate",
+      "mode": "foreign-two-level-invalidate",
       "observer": 0,
       "conclusion": "interference",
       "shortest_ticks": 5,
@@ -101,7 +101,7 @@
       }
     },
     {
-      "mode": "foreign-invalidate",
+      "mode": "foreign-two-level-invalidate",
       "observer": 1,
       "conclusion": "interference",
       "shortest_ticks": 6,

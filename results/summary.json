@@ -11,7 +11,7 @@
   "graph_max_mapped_states": 602,
   "uniform_cases": 80,
   "independent_oracle_cases": 484,
-  "core_recorded_cpu_seconds": 79.319951385,
+  "core_recorded_cpu_seconds": 79.287654149,
   "largest_recorded_process_rss_kib": 102192,
   "resource_boundary": "one worker per chunk; CPU checker measurements, not device performance",
   "measurement_scope": "main finite campaign and the pair-bank pilot; excludes earlier exploratory pilots, compilation and packaging"

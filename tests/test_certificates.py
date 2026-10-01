@@ -5,7 +5,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from pool import Contract,solve,fork,make_graph,pointwise_hall
 from verify_pool import verify as pool_check
 from hierarchy import pair_check,step,EMPTY
-from verify_hierarchy import verify as trace_check
+from verify_hierarchy import verify as trace_check, tick as reference_tick
 from contracts import graph_choice,independent_number,hierarchy_contract
 from verify_pooled import verify as pooled_check,check_encoding
 from tiny_oracle import OracleInputError,solve_tiny
@@ -100,6 +100,16 @@ class HierarchyTests(unittest.TestCase):
     def test_wrong_witness_length(self):
         raw=copy.deepcopy(self.bad);raw['shortest_ticks']+=1
         with self.assertRaises(ValueError):trace_check(raw)
+    def test_foreign_two_level_invalidate_exact_update_set(self):
+        state=(0,0,1,0,0,1,-1,2,0)
+        expected=(1,-1,-1,1,-1,1,-1,1,0)
+        actual,observed=step(state,(-1,-1),'foreign-two-level-invalidate')
+        reference,reference_observed=reference_tick(state,(-1,-1),'foreign-two-level-invalidate')
+        self.assertEqual(actual,expected)
+        self.assertEqual(reference,expected)
+        self.assertEqual(observed,reference_observed)
+        self.assertEqual(observed,((-1,()),(-1,())))
+
     def test_phase_encoding(self):check_encoding(hierarchy_contract((2,1)))
     def test_erased_live_interval(self):
         obj=hierarchy_contract((2,1));node=next(n for n in obj['nodes'].values() if n['live']);node['live']={}

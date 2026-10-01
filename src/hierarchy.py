@@ -13,7 +13,7 @@ from typing import Any
 # -1 denotes an empty cache or no pending address; stage 0 means no pending refill.
 EMPTY=(0,-1,-1,-1,-1,-1,-1,0,0)
 ALPHABET=(-1,0,1)
-MODES=('protected','global-credit','skip-idle','foreign-invalidate','foreign-fill')
+MODES=('protected','global-credit','skip-idle','foreign-two-level-invalidate','foreign-fill')
 
 
 def step(s: tuple[int,...], inputs: tuple[int,int], mode: str='protected') -> tuple[tuple[int,...],tuple[Any,...]]:
@@ -41,7 +41,9 @@ def step(s: tuple[int,...], inputs: tuple[int,int], mode: str='protected') -> tu
         a=addr[t];l2[t]=a
         if l1[t]!=a:l1[t]=-1
         stage[t]=1
-        if mode=='foreign-invalidate':l1[1-t]=-1;l2[1-t]=-1
+        if mode=='foreign-two-level-invalidate':
+            # Deliberately invalidate both private cache levels of the other tenant.
+            l1[1-t]=-1; l2[1-t]=-1
         if mode=='foreign-fill':l2[1-t]=a
     elif stage[t]==1:
         a=addr[t];l1[t]=a;done[t].append(a);stage[t]=0;addr[t]=-1

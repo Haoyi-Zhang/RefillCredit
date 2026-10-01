@@ -15,7 +15,7 @@
     "transitions": 738
   },
   {
-    "mode": "foreign-invalidate",
+    "mode": "foreign-two-level-invalidate",
     "states": 90,
     "transitions": 810
   },

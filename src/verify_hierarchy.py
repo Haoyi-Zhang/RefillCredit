@@ -12,7 +12,7 @@ from typing import Any
 
 ZERO=(0,-1,-1,-1,-1,-1,-1,0,0)
 SYMBOLS=(-1,0,1)
-KINDS={'protected','global-credit','skip-idle','foreign-invalidate','foreign-fill'}
+KINDS={'protected','global-credit','skip-idle','foreign-two-level-invalidate','foreign-fill'}
 
 
 def require(ok: bool, message: str) -> None:
@@ -54,7 +54,9 @@ def service(mid: tuple[int,...], ingress_outputs, kind: str='protected'):
         q[3+owner]=q[5+owner]
         if q[1+owner]!=q[5+owner]: q[1+owner]=-1
         q[7+owner]=1
-        if kind=='foreign-invalidate': q[2-owner]=-1;q[4-owner]=-1
+        if kind=='foreign-two-level-invalidate':
+            # Independent scalar semantics: clear both foreign near and far tags.
+            q[2-owner]=-1; q[4-owner]=-1
         if kind=='foreign-fill': q[4-owner]=q[5+owner]
     q[0]=1-q[0]
     return tuple(q),tuple((ingress_outputs[i][0],tuple(events[i])) for i in (0,1))

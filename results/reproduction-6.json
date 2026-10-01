@@ -1,55 +1,190 @@
 {
-  "part": 6,
   "all_commands_succeeded": true,
-  "semantic_results_equal": true,
+  "baseline_tree_unchanged": true,
+  "child_cpu_seconds": 8.320012,
   "commands": [
     {
       "command": [
         "python",
         "src/recheck_pilots.py"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"retained_pilot_cases_rechecked\": 8, \"semantic_checks_passed\": true, \"timing_note\": \"original exploratory timing records retained, not re-created\"}\n",
+      "timed_out": false,
+      "wall_seconds": 0.6171773879999591
     },
     {
       "command": [
         "python",
         "src/oracle_crosscheck.py"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"all_crosschecks_passed\": true, \"oracle_boundary\": \"independent standard-library implementation; at most six slots\", \"fork_cases\": 280, \"small_graph_cases\": 204, \"total_contract_cases\": 484, \"semantic_comparisons\": 764, \"snapshot_comparisons\": 484, \"losing_state_rank_comparisons\": 16205, \"workers\": 1}\n",
+      "timed_out": false,
+      "wall_seconds": 1.3904111279999825
     },
     {
       "command": [
         "python",
         "src/check_tests.py"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "..............................................................\n----------------------------------------------------------------------\nRan 62 tests in 4.077s\n\nOK\n",
+      "stdout": "{\"tests_run\": 62, \"failures\": 0, \"errors\": 0, \"skipped\": 0, \"successful\": true, \"scope\": \"owned finite-model input, certificate, witness and boundary tests\"}\n",
+      "timed_out": false,
+      "wall_seconds": 4.621484607999946
     },
     {
       "command": [
         "python",
         "src/audit_reference_ledger.py"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"all_reference_ledger_checks_passed\": true,\n  \"bibliography_manifest_rows\": 32,\n  \"calibration_categories\": {\n    \"adjacent-full\": 5,\n    \"influential-full\": 5,\n    \"same-venue-full\": 12\n  },\n  \"calibration_rows\": 22,\n  \"citation_resource_mappings\": 32,\n  \"errors\": [],\n  \"external_resource_rows\": 43,\n  \"persistent_identifiers_unique\": 32,\n  \"scope\": \"standalone local ledger consistency; remote publisher metadata was inspected separately and recorded in external_resources.csv\"\n}\n",
+      "timed_out": false,
+      "wall_seconds": 0.5365184099999851
     },
     {
       "command": [
         "python",
         "src/report.py"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"fork_cases\": 280,\n  \"fork_pointwise_feasible\": 61,\n  \"fork_persistent_feasible\": 47,\n  \"graph_cases\": 4296,\n  \"graph_persistent_feasible\": 2906,\n  \"greedy_cases\": 1225,\n  \"greedy_realizable\": 748,\n  \"greedy_all_choices_safe\": 264,\n  \"greedy_policy_dependent_realizable\": 484,\n  \"graph_max_mapped_states\": 602,\n  \"uniform_cases\": 80,\n  \"independent_oracle_cases\": 484,\n  \"core_recorded_cpu_seconds\": 79.259697282,\n  \"largest_recorded_process_rss_kib\": 102192,\n  \"resource_boundary\": \"one worker per chunk; CPU checker measurements, not device performance\",\n  \"measurement_scope\": \"main finite campaign and the pair-bank pilot; excludes earlier exploratory pilots, compilation and packaging\"\n}\n",
+      "timed_out": false,
+      "wall_seconds": 0.5897735129999546
     },
     {
       "command": [
         "python",
         "src/audit_results.py"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"all_numerical_checks_passed\": true, \"check_count\": 44}\n",
+      "timed_out": false,
+      "wall_seconds": 0.581415743999969
     }
   ],
-  "compared_result_files": 71,
-  "compared_input_files": 8,
-  "child_cpu_seconds": 5.668906,
-  "wall_seconds": 5.981829281999808,
-  "max_child_rss_kib": 106384,
-  "measurement_note": "maximum individual child RSS, not aggregate system RSS; parent orchestrates sequentially"
+  "compared_regenerated_files": 13,
+  "ignored_nondeterministic_result_fields": [
+    "core_recorded_cpu_seconds",
+    "cpu_seconds",
+    "largest_recorded_process_rss_kib",
+    "peak_rss_kib",
+    "wall_seconds"
+  ],
+  "max_child_rss_kib": 106368,
+  "measurement_note": "maximum individual child RSS, not aggregate system RSS; children run sequentially in an isolated copy",
+  "missing_generated_files": [],
+  "missing_retained_files": [],
+  "modified_retained_files": [],
+  "part": 6,
+  "regenerated_files": [
+    "results/numerical-audit.json",
+    "results/oracle-crosscheck.json",
+    "results/pilot-recheck.json",
+    "results/reference-ledger-audit.json",
+    "results/summary.json",
+    "results/unit-tests.json",
+    "tables/fork-capacity.csv",
+    "tables/hierarchy.csv",
+    "tables/integration.csv",
+    "tables/policy-independence.csv",
+    "tables/pooled-hierarchy.csv",
+    "tables/reserve-graphs.csv",
+    "tables/uniform-capacity.csv"
+  ],
+  "required_outputs_complete": true,
+  "retained_files": [
+    "inputs/fork-three-entries.json",
+    "inputs/fork-two-entries.json",
+    "inputs/hierarchy-pool-02.json",
+    "inputs/hierarchy-pool-11.json",
+    "inputs/hierarchy-pool-12.json",
+    "inputs/hierarchy-pool-21.json",
+    "inputs/hierarchy-pool-22.json",
+    "inputs/missing-bank.json",
+    "results/fork-three-entries.certificate.json",
+    "results/fork-two-entries.certificate.json",
+    "results/forks.json",
+    "results/graphs-00.json",
+    "results/graphs-01.json",
+    "results/graphs-02.json",
+    "results/graphs-03.json",
+    "results/graphs-04.json",
+    "results/graphs-05.json",
+    "results/graphs-06.json",
+    "results/graphs-07.json",
+    "results/graphs-08.json",
+    "results/graphs-09.json",
+    "results/graphs-10.json",
+    "results/graphs-11.json",
+    "results/graphs-12.json",
+    "results/graphs-13.json",
+    "results/graphs-14.json",
+    "results/graphs-15.json",
+    "results/graphs-16.json",
+    "results/greedy-pilot.json",
+    "results/greedy-three-bank-0.json",
+    "results/greedy-three-bank-1.json",
+    "results/greedy-three-bank-2.json",
+    "results/greedy-three-bank-3.json",
+    "results/greedy-two-bank.json",
+    "results/hierarchy-foreign-fill-0.json",
+    "results/hierarchy-foreign-fill-1.json",
+    "results/hierarchy-foreign-two-level-invalidate-0.json",
+    "results/hierarchy-foreign-two-level-invalidate-1.json",
+    "results/hierarchy-global-credit-0.json",
+    "results/hierarchy-global-credit-1.json",
+    "results/hierarchy-pool-02.certificate.json",
+    "results/hierarchy-pool-11.certificate.json",
+    "results/hierarchy-pool-12.certificate.json",
+    "results/hierarchy-pool-21.certificate.json",
+    "results/hierarchy-pool-22.certificate.json",
+    "results/hierarchy-protected-0.json",
+    "results/hierarchy-protected-1.json",
+    "results/hierarchy-skip-idle-0.json",
+    "results/hierarchy-skip-idle-1.json",
+    "results/hierarchy.json",
+    "results/integration-pilot.json",
+    "results/integration.json",
+    "results/missing-bank.certificate.json",
+    "results/pair-bank-negative-0.json",
+    "results/pair-bank-negative-1.json",
+    "results/pair-bank-pilot.json",
+    "results/pair-bank-protected-0.json",
+    "results/pair-bank-protected-1.json",
+    "results/pilot.json",
+    "results/pooled-11-first-fit-0.json",
+    "results/pooled-11-first-fit-1.json",
+    "results/pooled-12-certified-0.json",
+    "results/pooled-12-certified-1.json",
+    "results/pooled-12-first-fit-0.json",
+    "results/pooled-12-first-fit-1.json",
+    "results/pooled-21-certified-0.json",
+    "results/pooled-21-certified-1.json",
+    "results/pooled-21-first-fit-0.json",
+    "results/pooled-21-first-fit-1.json",
+    "results/pooled-hierarchy.json",
+    "results/pooled-verification.json",
+    "results/reproduction-0.json",
+    "results/reproduction-1.json",
+    "results/reproduction-2.json",
+    "results/reproduction-3.json",
+    "results/reproduction-4.json",
+    "results/reproduction-5.json",
+    "results/reproduction-6.json",
+    "results/transition-equivalence.json",
+    "results/uniform.json"
+  ],
+  "semantic_mismatches": [],
+  "semantic_results_equal": true,
+  "unexpected_tracked_files": [],
+  "verified_retained_files_unchanged": 80,
+  "wall_seconds": 8.354031002999932
 }

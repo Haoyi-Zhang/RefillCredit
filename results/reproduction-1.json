@@ -1,7 +1,7 @@
 {
-  "part": 1,
   "all_commands_succeeded": true,
-  "semantic_results_equal": true,
+  "baseline_tree_unchanged": true,
+  "child_cpu_seconds": 18.413789,
   "commands": [
     {
       "command": [
@@ -11,7 +11,11 @@
         "--block",
         "0"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"family\": \"graphs\", \"block\": 0, \"workers\": 1, \"randomness\": \"none; complete stated parameter grids\", \"cpu_seconds\": 0.28797136900000003, \"wall_seconds\": 0.28875094999989415, \"peak_rss_kib\": 94504, \"case_count\": 204, \"all_oracle_checks_passed\": true}\n",
+      "timed_out": false,
+      "wall_seconds": 0.8813344689999667
     },
     {
       "command": [
@@ -21,7 +25,11 @@
         "--block",
         "1"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"family\": \"graphs\", \"block\": 1, \"workers\": 1, \"randomness\": \"none; complete stated parameter grids\", \"cpu_seconds\": 2.35373534, \"wall_seconds\": 2.3613013519999413, \"peak_rss_kib\": 94880, \"case_count\": 252, \"all_oracle_checks_passed\": true}\n",
+      "timed_out": false,
+      "wall_seconds": 2.997759794999979
     },
     {
       "command": [
@@ -31,7 +39,11 @@
         "--block",
         "2"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"family\": \"graphs\", \"block\": 2, \"workers\": 1, \"randomness\": \"none; complete stated parameter grids\", \"cpu_seconds\": 3.020648223, \"wall_seconds\": 3.025445803000025, \"peak_rss_kib\": 95136, \"case_count\": 256, \"all_oracle_checks_passed\": true}\n",
+      "timed_out": false,
+      "wall_seconds": 3.624590602000012
     },
     {
       "command": [
@@ -41,7 +53,11 @@
         "--block",
         "3"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"family\": \"graphs\", \"block\": 3, \"workers\": 1, \"randomness\": \"none; complete stated parameter grids\", \"cpu_seconds\": 2.855184521, \"wall_seconds\": 2.855594848999999, \"peak_rss_kib\": 95140, \"case_count\": 256, \"all_oracle_checks_passed\": true}\n",
+      "timed_out": false,
+      "wall_seconds": 3.405533002000084
     },
     {
       "command": [
@@ -51,7 +67,11 @@
         "--block",
         "4"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"family\": \"graphs\", \"block\": 4, \"workers\": 1, \"randomness\": \"none; complete stated parameter grids\", \"cpu_seconds\": 3.551765813, \"wall_seconds\": 3.554861800000026, \"peak_rss_kib\": 95140, \"case_count\": 256, \"all_oracle_checks_passed\": true}\n",
+      "timed_out": false,
+      "wall_seconds": 4.096304161000035
     },
     {
       "command": [
@@ -61,13 +81,128 @@
         "--block",
         "5"
       ],
-      "exit_code": 0
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"family\": \"graphs\", \"block\": 5, \"workers\": 1, \"randomness\": \"none; complete stated parameter grids\", \"cpu_seconds\": 2.871871631, \"wall_seconds\": 2.8727929450000147, \"peak_rss_kib\": 95140, \"case_count\": 256, \"all_oracle_checks_passed\": true}\n",
+      "timed_out": false,
+      "wall_seconds": 3.4332933529999536
     }
   ],
-  "compared_result_files": 71,
-  "compared_input_files": 8,
-  "child_cpu_seconds": 20.72386,
-  "wall_seconds": 21.045292745000097,
-  "max_child_rss_kib": 95272,
-  "measurement_note": "maximum individual child RSS, not aggregate system RSS; parent orchestrates sequentially"
+  "compared_regenerated_files": 6,
+  "ignored_nondeterministic_result_fields": [
+    "core_recorded_cpu_seconds",
+    "cpu_seconds",
+    "largest_recorded_process_rss_kib",
+    "peak_rss_kib",
+    "wall_seconds"
+  ],
+  "max_child_rss_kib": 95268,
+  "measurement_note": "maximum individual child RSS, not aggregate system RSS; children run sequentially in an isolated copy",
+  "missing_generated_files": [],
+  "missing_retained_files": [],
+  "modified_retained_files": [],
+  "part": 1,
+  "regenerated_files": [
+    "results/graphs-00.json",
+    "results/graphs-01.json",
+    "results/graphs-02.json",
+    "results/graphs-03.json",
+    "results/graphs-04.json",
+    "results/graphs-05.json"
+  ],
+  "required_outputs_complete": true,
+  "retained_files": [
+    "inputs/fork-three-entries.json",
+    "inputs/fork-two-entries.json",
+    "inputs/hierarchy-pool-02.json",
+    "inputs/hierarchy-pool-11.json",
+    "inputs/hierarchy-pool-12.json",
+    "inputs/hierarchy-pool-21.json",
+    "inputs/hierarchy-pool-22.json",
+    "inputs/missing-bank.json",
+    "results/fork-three-entries.certificate.json",
+    "results/fork-two-entries.certificate.json",
+    "results/forks.json",
+    "results/graphs-06.json",
+    "results/graphs-07.json",
+    "results/graphs-08.json",
+    "results/graphs-09.json",
+    "results/graphs-10.json",
+    "results/graphs-11.json",
+    "results/graphs-12.json",
+    "results/graphs-13.json",
+    "results/graphs-14.json",
+    "results/graphs-15.json",
+    "results/graphs-16.json",
+    "results/greedy-pilot.json",
+    "results/greedy-three-bank-0.json",
+    "results/greedy-three-bank-1.json",
+    "results/greedy-three-bank-2.json",
+    "results/greedy-three-bank-3.json",
+    "results/greedy-two-bank.json",
+    "results/hierarchy-foreign-fill-0.json",
+    "results/hierarchy-foreign-fill-1.json",
+    "results/hierarchy-foreign-two-level-invalidate-0.json",
+    "results/hierarchy-foreign-two-level-invalidate-1.json",
+    "results/hierarchy-global-credit-0.json",
+    "results/hierarchy-global-credit-1.json",
+    "results/hierarchy-pool-02.certificate.json",
+    "results/hierarchy-pool-11.certificate.json",
+    "results/hierarchy-pool-12.certificate.json",
+    "results/hierarchy-pool-21.certificate.json",
+    "results/hierarchy-pool-22.certificate.json",
+    "results/hierarchy-protected-0.json",
+    "results/hierarchy-protected-1.json",
+    "results/hierarchy-skip-idle-0.json",
+    "results/hierarchy-skip-idle-1.json",
+    "results/hierarchy.json",
+    "results/integration-pilot.json",
+    "results/integration.json",
+    "results/missing-bank.certificate.json",
+    "results/numerical-audit.json",
+    "results/oracle-crosscheck.json",
+    "results/pair-bank-negative-0.json",
+    "results/pair-bank-negative-1.json",
+    "results/pair-bank-pilot.json",
+    "results/pair-bank-protected-0.json",
+    "results/pair-bank-protected-1.json",
+    "results/pilot-recheck.json",
+    "results/pilot.json",
+    "results/pooled-11-first-fit-0.json",
+    "results/pooled-11-first-fit-1.json",
+    "results/pooled-12-certified-0.json",
+    "results/pooled-12-certified-1.json",
+    "results/pooled-12-first-fit-0.json",
+    "results/pooled-12-first-fit-1.json",
+    "results/pooled-21-certified-0.json",
+    "results/pooled-21-certified-1.json",
+    "results/pooled-21-first-fit-0.json",
+    "results/pooled-21-first-fit-1.json",
+    "results/pooled-hierarchy.json",
+    "results/pooled-verification.json",
+    "results/reference-ledger-audit.json",
+    "results/reproduction-0.json",
+    "results/reproduction-1.json",
+    "results/reproduction-2.json",
+    "results/reproduction-3.json",
+    "results/reproduction-4.json",
+    "results/reproduction-5.json",
+    "results/reproduction-6.json",
+    "results/summary.json",
+    "results/transition-equivalence.json",
+    "results/uniform.json",
+    "results/unit-tests.json",
+    "tables/fork-capacity.csv",
+    "tables/hierarchy.csv",
+    "tables/integration.csv",
+    "tables/policy-independence.csv",
+    "tables/pooled-hierarchy.csv",
+    "tables/reserve-graphs.csv",
+    "tables/uniform-capacity.csv"
+  ],
+  "semantic_mismatches": [],
+  "semantic_results_equal": true,
+  "unexpected_tracked_files": [],
+  "verified_retained_files_unchanged": 87,
+  "wall_seconds": 18.472016765000035
 }

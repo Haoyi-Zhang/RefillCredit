@@ -34,7 +34,7 @@ def run():
     for caps,pol,obs,pairs,edges,depth in cases:
         r=read(f'pooled-{caps}-{pol}-{obs}.json')
         check(f'physical {caps} {pol} observer {obs}',[r['visited_pairs'],r['checked_edges'],r['shortest_ticks']],[pairs,edges,depth])
-    for mode,depths in [('global-credit',(2,1)),('skip-idle',(2,2)),('foreign-invalidate',(5,6)),('foreign-fill',(3,2))]:
+    for mode,depths in [('global-credit',(2,1)),('skip-idle',(2,2)),('foreign-two-level-invalidate',(5,6)),('foreign-fill',(3,2))]:
         check('logical fault '+mode,[read(f'hierarchy-{mode}-{i}.json')['shortest_ticks'] for i in (0,1)],list(depths))
     for i in (0,1):
         r=read(f'hierarchy-protected-{i}.json');check('logical protected '+str(i),[r['visited_pairs'],r['checked_edges']],[630,17010])
@@ -47,7 +47,7 @@ def run():
     check('independent tiny-oracle contract cases',oracle['total_contract_cases'],484)
     check('independent tiny-oracle semantic and snapshot comparisons',[oracle['semantic_comparisons'],oracle['snapshot_comparisons']],[764,484])
     check('independent tiny-oracle losing-state ranks',oracle['losing_state_rank_comparisons'],16205)
-    r=read('unit-tests.json');check('unit tests',[r['tests_run'],r['failures'],r['errors'],r['successful']],[55,0,0,True])
+    r=read('unit-tests.json');check('unit tests',[r['tests_run'],r['failures'],r['errors'],r['successful']],[62,0,0,True])
     out={'all_numerical_checks_passed':True,'checks':checked,'check_count':len(checked)}
     (ROOT/'results/numerical-audit.json').write_text(json.dumps(out,indent=2)+'\n');return out
 if __name__=='__main__':print(json.dumps({k:v for k,v in run().items() if k!='checks'}))
