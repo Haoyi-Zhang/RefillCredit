@@ -12,6 +12,7 @@ INPUT=(-1,0,1,2)
 
 
 def transition(state,symbols,capacities=(1,1,1)):
+    if not isinstance(symbols,(tuple,list)) or len(symbols)!=2 or any(type(a) is not int or a not in INPUT for a in symbols):raise ValueError('two integer input symbols required')
     q=list(state);answers=[[-1,[]],[-1,[]]];banks=[b for b,n in enumerate(capacities) for _ in range(n)]
     for t,a in enumerate(symbols):
         if a not in INPUT:raise ValueError('bad input')
@@ -34,6 +35,7 @@ def transition(state,symbols,capacities=(1,1,1)):
 
 def reference(state,symbols,capacities=(1,1,1),logical=False):
     # Independent dictionary-based semantics; no transition() call.
+    if not isinstance(symbols,(tuple,list)) or len(symbols)!=2 or any(type(a) is not int or a not in INPUT for a in symbols):raise ValueError('two integer input symbols required')
     p=state[0];local={i:dict(near=state[1+i],far=state[3+i],pending=state[5+i],stage=state[7+i],slot=state[9+i]) for i in (0,1)}
     obs={i:dict(accept=-1,done=[]) for i in (0,1)};physical=[]
     for bank,count in enumerate(capacities):physical.extend([bank]*count)
@@ -106,6 +108,7 @@ def verify(raw):
             s,x=reference(pair[0],u,caps);t,y=reference(pair[1],v,caps)
             yield (s,t),x[i],y[i]
     if raw['conclusion']=='noninterference':
+        if raw['shortest_ticks'] is not None:raise ValueError('positive certificate has a difference length')
         listed=[(tuple(a),tuple(b)) for a,b in raw['closed_relation']];rel=set(listed)
         if root not in rel or len(rel)!=len(listed):raise ValueError('bad relation')
         seen={root};todo=[root]

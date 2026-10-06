@@ -18,6 +18,8 @@ MODES=('protected','global-credit','skip-idle','foreign-two-level-invalidate','f
 
 def step(s: tuple[int,...], inputs: tuple[int,int], mode: str='protected') -> tuple[tuple[int,...],tuple[Any,...]]:
     if mode not in MODES: raise ValueError('unknown mode')
+    if not isinstance(inputs,(tuple,list)) or len(inputs)!=2 or any(type(a) is not int or a not in ALPHABET for a in inputs):
+        raise ValueError('two integer inputs from the finite alphabet required')
     phase=s[0]; l1=list(s[1:3]);l2=list(s[3:5]);addr=list(s[5:7]);stage=list(s[7:9])
     accept=[-1,-1];done=[[],[]]
     # Input sampling precedes service. Busy-at-sampling requests are rejected,

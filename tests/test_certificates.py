@@ -100,6 +100,26 @@ class HierarchyTests(unittest.TestCase):
     def test_wrong_witness_length(self):
         raw=copy.deepcopy(self.bad);raw['shortest_ticks']+=1
         with self.assertRaises(ValueError):trace_check(raw)
+    def test_integer_input_alphabet_and_batch_size(self):
+        from verify_hierarchy import ingress
+        for inputs in [(True,-1),(0.0,-1),(2,-1),(-1,),(-1,-1,-1),None]:
+            with self.subTest(inputs=inputs):
+                with self.assertRaises(ValueError):step(EMPTY,inputs)
+                with self.assertRaises(ValueError):ingress(EMPTY,inputs)
+    def test_pooled_machine_input_boundary(self):
+        from pooled_hierarchy import Machine,ROOT as PHYSICAL_ROOT
+        obj=json.loads((ROOT/'inputs/hierarchy-pool-12.json').read_text())
+        cert=json.loads((ROOT/'results/hierarchy-pool-12.certificate.json').read_text())
+        for machine in [Machine((1,2)),Machine((1,2),obj,cert)]:
+            for inputs in [(True,-1),(0.0,-1),(2,-1),(-1,),(-1,-1,-1),None]:
+                with self.subTest(certified=machine.cert is not None,inputs=inputs):
+                    with self.assertRaises(ValueError):machine.tick(PHYSICAL_ROOT,inputs)
+    def test_observer_is_an_integer_index(self):
+        for observer in [True,0.0]:
+            raw=copy.deepcopy(self.bad);raw['observer']=observer
+            with self.assertRaises(ValueError):trace_check(raw)
+            pooled=json.loads((ROOT/'results/pooled-12-first-fit-1.json').read_text());pooled['observer']=observer
+            with self.assertRaises(ValueError):pooled_check(pooled)
     def test_foreign_two_level_invalidate_exact_update_set(self):
         state=(0,0,1,0,0,1,-1,2,0)
         expected=(1,-1,-1,1,-1,1,-1,1,0)
@@ -166,6 +186,16 @@ class PolicyIndependenceTests(unittest.TestCase):
     def test_pair_bank_bad_input(self):
         from pair_bank import verify
         raw=json.loads((ROOT/'results/pair-bank-negative-0.json').read_text());raw['trace'][0]['left_input']=[0,0,0]
+        with self.assertRaises(ValueError):verify(raw)
+    def test_pair_bank_transition_input_boundary(self):
+        from pair_bank import transition,reference,ROOT as PAIR_ROOT
+        for inputs in [(True,-1),(0.0,-1),(3,-1),(-1,),(-1,-1,-1),None]:
+            with self.subTest(inputs=inputs):
+                with self.assertRaises(ValueError):transition(PAIR_ROOT,inputs)
+                with self.assertRaises(ValueError):reference(PAIR_ROOT,inputs)
+    def test_pair_bank_positive_difference_length(self):
+        from pair_bank import verify
+        raw=json.loads((ROOT/'results/pair-bank-protected-0.json').read_text());raw['shortest_ticks']=1
         with self.assertRaises(ValueError):verify(raw)
 
 

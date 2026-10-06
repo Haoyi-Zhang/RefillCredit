@@ -21,6 +21,7 @@ def require(ok: bool, message: str) -> None:
 
 def ingress(s: tuple[int,...], symbols: tuple[int,int], kind: str='protected'):
     require(kind in KINDS,'unknown model')
+    require(isinstance(symbols,(tuple,list)) and len(symbols)==2 and all(type(a) is int and a in SYMBOLS for a in symbols),'two integer input symbols required')
     tenants={i:{'near':s[1+i],'far':s[3+i],'request':s[5+i], 'remaining':s[7+i]} for i in (0,1)}
     seen={i:{'admitted':-1,'completed':[]} for i in (0,1)}
     for i in (0,1):
@@ -76,7 +77,7 @@ def paired_moves(pair, observer, kind):
 
 
 def verify(cert:dict[str,Any], limit:int=150000) -> dict[str,int]:
-    kind=cert['mode']; obs=cert['observer'];require(obs in (0,1),'bad observer')
+    kind=cert['mode']; obs=cert['observer'];require(type(obs) is int and obs in (0,1),'bad observer')
     root=(ZERO,ZERO); checked=0
     if cert['conclusion']=='noninterference':
         listed=[(tuple(a),tuple(b)) for a,b in cert['closed_relation']]

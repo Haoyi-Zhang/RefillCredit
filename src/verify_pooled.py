@@ -68,7 +68,7 @@ def reference_step(state,inputs,capacities,contract=None,cert=None,lookup=None):
 
 def verify(raw,contract=None,cert=None,limit=150000):
     caps=raw['capacities'];observer=raw['observer'];policy=raw['policy'];lookup=None
-    require(observer in (0,1) and policy in ('first-fit','certified'),'bad observation or policy')
+    require(type(observer) is int and observer in (0,1) and policy in ('first-fit','certified'),'bad observation or policy')
     require(len(caps)==2 and all(type(n) is int and n>=0 for n in caps) and sum(caps)<=8,'bad capacities')
     if policy=='certified':
         require(contract is not None and cert is not None,'missing policy evidence')

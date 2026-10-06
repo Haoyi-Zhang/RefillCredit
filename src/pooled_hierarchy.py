@@ -26,6 +26,8 @@ class Machine:
                 self.lookup[(a['phase'],tuple(a['hierarchy_state']),tuple(mapping))]=i
 
     def tick(self,state,inputs):
+        if not isinstance(inputs,(tuple,list)) or len(inputs)!=2 or any(type(a) is not int or a not in ALPHABET for a in inputs):
+            raise ValueError('two integer inputs from the finite alphabet required')
         s=tuple(state[:9]);old=list(state[9:])
         if self.cert is not None:
             active=tuple(old[t] for t in (0,1) if s[7+t])

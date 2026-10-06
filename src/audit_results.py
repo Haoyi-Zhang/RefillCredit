@@ -47,7 +47,7 @@ def run():
     check('independent tiny-oracle contract cases',oracle['total_contract_cases'],484)
     check('independent tiny-oracle semantic and snapshot comparisons',[oracle['semantic_comparisons'],oracle['snapshot_comparisons']],[764,484])
     check('independent tiny-oracle losing-state ranks',oracle['losing_state_rank_comparisons'],16205)
-    r=read('unit-tests.json');check('unit tests',[r['tests_run'],r['failures'],r['errors'],r['successful']],[62,0,0,True])
+    r=read('unit-tests.json');check('unit tests',[r['tests_run'],r['failures'],r['errors'],r['successful']],[68,0,0,True])
     out={'all_numerical_checks_passed':True,'checks':checked,'check_count':len(checked)}
     (ROOT/'results/numerical-audit.json').write_text(json.dumps(out,indent=2)+'\n');return out
 if __name__=='__main__':print(json.dumps({k:v for k,v in run().items() if k!='checks'}))

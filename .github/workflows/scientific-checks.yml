@@ -1,0 +1,64 @@
+name: Finite scientific checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  finite-science:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      PYTHONUTF8: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Prepare external raw-output directory
+        shell: bash
+        run: mkdir -p "$RUNNER_TEMP/p084-science"
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Reproduce all seven finite parts with whole-run limits
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Checkout is the flat artifact repository, not a parent paper bundle.
+          test -f reproduce.py
+          test -f .github/scripts/check_repository.py
+          PYTHON_BIN="$(command -v python)"
+          OUT="$RUNNER_TEMP/p084-science"
+          # cgroup limits apply to the parent and every child together. Existing
+          # 40-second CPU / 3.5-GiB address-space child limits remain in force.
+          sudo systemd-run --quiet --wait --pipe --collect \
+            --unit="p084-science-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" \
+            --uid="$(id -u)" --working-directory="$GITHUB_WORKSPACE" \
+            --property=MemoryMax=4G --property=MemorySwapMax=0 \
+            --property=CPUQuota=400% --property=RuntimeMaxSec=600 \
+            --setenv="P084_PYTHON=$PYTHON_BIN" --setenv="P084_OUT=$OUT" \
+            --setenv=PYTHONUTF8=1 --setenv=PYTHONDONTWRITEBYTECODE=1 \
+            --setenv=OMP_NUM_THREADS=1 --setenv=OPENBLAS_NUM_THREADS=1 \
+            --setenv=MIN_EXPECTED_PYTHON_SOURCES=21 \
+            /usr/bin/timeout --signal=TERM --kill-after=5s 590s /bin/bash -c '
+              set -euo pipefail
+              "$P084_PYTHON" -B .github/scripts/check_repository.py
+              for part in 0 1 2 3 4 5 6; do
+                "$P084_PYTHON" -B reproduce.py --part "$part" \
+                  --report "$P084_OUT/reproduction-$part.json"
+              done
+            ' 2>&1 | tee "$OUT/whole-run.txt"
+      - name: Upload raw outputs even when a scientific gate fails
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: p084-scientific-raw-outputs
+          path: ${{ runner.temp }}/p084-science/
+          if-no-files-found: warn
+          retention-days: 14

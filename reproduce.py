@@ -13,6 +13,7 @@ is printed only to standard output.
 from __future__ import annotations
 
 import argparse
+from contextlib import ExitStack
 import hashlib
 import json
 import os
@@ -270,6 +271,25 @@ def _write_report(path: Path | None, report: dict[str, Any]) -> None:
     path.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
+def _retain_raw_outputs(stage_root: Path, report_path: Path | None,
+                        required: Sequence[str], report: dict[str, Any]) -> None:
+    """Keep this attempt's generated raw files outside the comparison baseline."""
+    if report_path is None:
+        return
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    raw_root = Path(tempfile.mkdtemp(prefix=f"raw-part-{report['part']}-", dir=report_path.parent))
+    copied = []
+    for relative in required:
+        source = stage_root / relative
+        if source.is_file():
+            target = raw_root / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(source, target)
+            copied.append(relative)
+    report['raw_output_directory'] = str(raw_root)
+    report['retained_raw_generated_files'] = sorted(copied)
+
+
 def run_part(
     root: Path,
     part: int,
@@ -328,7 +348,7 @@ def run_part(
     }
 
     try:
-        with tempfile.TemporaryDirectory(prefix=f"tenant-isolation-reproduce-{part}-") as tmp:
+        with tempfile.TemporaryDirectory(prefix=f"tenant-isolation-reproduce-{part}-") as tmp, ExitStack() as raw_records:
             stage_root = Path(tmp) / "repository"
             shutil.copytree(
                 root,
@@ -340,6 +360,8 @@ def run_part(
                 if target.exists():
                     target.unlink()
                 target.parent.mkdir(parents=True, exist_ok=True)
+
+            raw_records.callback(_retain_raw_outputs, stage_root, safe_report, required, report)
 
             env = dict(
                 os.environ,

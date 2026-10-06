@@ -147,6 +147,22 @@ class ImmutableReproductionTests(unittest.TestCase):
             self.assertFalse(overlap, overlap)
             all_required.update(required)
 
+    def test_failed_semantic_attempt_retains_its_actual_raw_output(self):
+        temp, root = self.fixture(
+            "from pathlib import Path\nPath('results/out.json').write_text('{\"value\": 2}\\n')\n"
+        )
+        self.addCleanup(temp.cleanup)
+        report_path = root.parent / "records" / "attempt.json"
+        with self.assertRaises(ReproductionFailure) as ctx:
+            run_part(root, 0, commands=[["job.py"]], required_outputs=["results/out.json"],
+                     timeout_seconds=2, apply_limits=False, report_path=report_path)
+        report = json.loads(report_path.read_text(encoding="utf-8"))
+        raw = Path(report["raw_output_directory"]) / "results/out.json"
+        self.assertEqual(json.loads(raw.read_text(encoding="utf-8")), {"value": 2})
+        self.assertEqual(report["retained_raw_generated_files"], ["results/out.json"])
+        self.assertIn("semantic", str(ctx.exception))
+        self.assertTrue(report["baseline_tree_unchanged"])
+
 
 if __name__ == "__main__":
     unittest.main()
