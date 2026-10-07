@@ -59,6 +59,19 @@ The first game rejects persistent realization; the rematching relaxation accepts
 
 ## Repository map
 
+The three paired-search producers lazily reuse each side's pure transition for
+one dequeued pair only. Alphabet/paired-edge order, first-difference witnesses,
+relation order, exploration refusals and every scientific edge count remain
+unchanged: `checked_edges` counts paired obligations, not transition calls.
+Independent reference/checker paths do not use this reuse. No runtime improvement
+is measured or claimed. A separate portable regression can be run with
+`python -B tests/regression_pair_reuse.py -v`; CI runs it explicitly within the
+whole-run resource envelope before the unchanged seven-part reproduction.
+It checks all 24 retained paired certificates, literal tiny words, counter and
+relation tampering, lazy/local reuse and refusals. It does not replace or relabel
+the historical 68-test receipt. On Windows its deny-all `resource` import stub
+permits pure functions only; it does not validate POSIX orchestration.
+
 `src/pool.py` builds the game with backtracking assignments. `src/verify_pool.py` rebuilds assignments by permutations without importing the solver. `src/tiny_oracle.py` is a third, deliberately small implementation that imports neither the producer nor certificate verifier; `src/oracle_crosscheck.py` compares its persistent/rematching verdicts, snapshot feasibility, and losing-state ranks over 484 contracts. `src/contracts.py` contains exact case generators and a controller encoding check. `src/hierarchy.py` and `src/verify_hierarchy.py` implement separate tuple and scalar transition semantics. `src/pooled_hierarchy.py` installs fixed or synthesized allocation; `src/verify_pooled.py` reconstructs it independently. `src/pair_bank.py` contains the three-bank model and a separately written dictionary-based reference function that does not call the producer transition. Keeping two implementations in one file is not a separate trust domain or an independent development team.
 
 `src/greedy.py` compares the all-choice matching criterion with all reachable legal allocations and with the realizability game. `src/uniform.py` enumerates integer capacity vectors and permanent-reservation hitting sets. `src/campaign.py` selects bounded finite families. `src/report.py` produces compact CSVs from raw results. `src/audit_results.py` checks the paper's stated numerical quantities against those raw files. The independent tiny-oracle campaign covers 764 persistent/rematching semantic comparisons, 484 snapshot comparisons, and 16,205 losing-state rank comparisons.

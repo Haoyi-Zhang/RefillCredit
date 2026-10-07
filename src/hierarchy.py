@@ -66,10 +66,15 @@ def pair_check(mode: str, observer: int=0, limit: int=150000) -> dict[str,Any]:
     for_nodes=[]
     while todo:
         sid=todo.popleft();s0,s1=states[sid]
+        # Lazy, side-local reuse for this pair only; semantic edges still count.
+        left_moves={};right_moves={}
         for low,h0,h1 in itertools.product(ALPHABET,repeat=3):
             u0=(low,h0) if observer==0 else (h0,low)
             u1=(low,h1) if observer==0 else (h1,low)
-            n0,o0=step(s0,u0,mode);n1,o1=step(s1,u1,mode);edges+=1
+            if u0 not in left_moves:left_moves[u0]=step(s0,u0,mode)
+            n0,o0=left_moves[u0]
+            if u1 not in right_moves:right_moves[u1]=step(s1,u1,mode)
+            n1,o1=right_moves[u1];edges+=1
             if o0[observer]!=o1[observer]:
                 trace=[{'left_input':list(u0),'right_input':list(u1),
                         'left_output':o0[observer],'right_output':o1[observer]}]

@@ -82,9 +82,13 @@ def paired(capacities,observer):
     root=(ROOT,ROOT);seen={root:0};states=[root];todo=deque([root]);parent={};edges=0
     while todo:
         pair=todo.popleft()
+        left_moves={};right_moves={}
         for a,b,c in itertools.product(INPUT,repeat=3):
             u=(a,b) if observer==0 else (b,a);v=(a,c) if observer==0 else (c,a)
-            s,x=transition(pair[0],u,capacities);t,y=transition(pair[1],v,capacities);edges+=1
+            if u not in left_moves:left_moves[u]=transition(pair[0],u,capacities)
+            s,x=left_moves[u]
+            if v not in right_moves:right_moves[v]=transition(pair[1],v,capacities)
+            t,y=right_moves[v];edges+=1
             entry={'left_input':list(u),'right_input':list(v),'left_output':x[observer],'right_output':y[observer]}
             if x[observer]!=y[observer]:
                 trace=[entry];cur=pair

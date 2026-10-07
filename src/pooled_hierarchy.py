@@ -83,9 +83,13 @@ def check(machine:Machine,observer:int,limit:int=150000):
     root=(ROOT,ROOT);pairs=[root];index={root:0};todo=deque([0]);parent={};edges=0
     while todo:
         sid=todo.popleft();p,q=pairs[sid]
+        left_moves={};right_moves={}
         for a,b,c in itertools.product(ALPHABET,repeat=3):
             u=(a,b) if observer==0 else (b,a);v=(a,c) if observer==0 else (c,a)
-            ns,x=machine.tick(p,u);nt,y=machine.tick(q,v);edges+=1
+            if u not in left_moves:left_moves[u]=machine.tick(p,u)
+            ns,x=left_moves[u]
+            if v not in right_moves:right_moves[v]=machine.tick(q,v)
+            nt,y=right_moves[v];edges+=1
             entry={'left_input':list(u),'right_input':list(v),'left_output':x[observer],'right_output':y[observer]}
             if x[observer]!=y[observer]:
                 trace=[entry];cur=sid

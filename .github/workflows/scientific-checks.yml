@@ -49,6 +49,8 @@ jobs:
             /usr/bin/timeout --signal=TERM --kill-after=5s 590s /bin/bash -c '
               set -euo pipefail
               "$P084_PYTHON" -B .github/scripts/check_repository.py
+              /usr/bin/timeout --signal=TERM --kill-after=5s 60s \
+                "$P084_PYTHON" -B tests/regression_pair_reuse.py -v
               for part in 0 1 2 3 4 5 6; do
                 "$P084_PYTHON" -B reproduce.py --part "$part" \
                   --report "$P084_OUT/reproduction-$part.json"
