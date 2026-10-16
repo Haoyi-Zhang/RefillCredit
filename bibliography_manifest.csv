@@ -31,3 +31,21 @@ ucp,inproceedings,"Utility-Based Cache Partitioning: A Low-Overhead, High-Perfor
 vantage,inproceedings,Vantage: Scalable and Efficient Fine-Grain Cache Partitioning,2011,Proceedings of the 38th Annual International Symposium on Computer Architecture,doi:10.1145/2000064.2000073
 catalyst,inproceedings,{CATalyst}: Defeating Last-Level Cache Side Channel Attacks in Cloud Computing,2016,2016 IEEE International Symposium on High Performance Computer Architecture,doi:10.1109/hpca.2016.7446082
 memguard,inproceedings,{MemGuard}: Memory Bandwidth Reservation System for Efficient Performance Isolation in Multi-Core Platforms,2013,2013 IEEE 19th Real-Time and Embedded Technology and Applications Symposium,doi:10.1109/rtas.2013.6531079
+goguen1982,inproceedings,Security Policies and Security Models,1982,1982 IEEE Symposium on Security and Privacy,doi:10.1109/sp.1982.10014
+rushby1992,techreport,"Noninterference, Transitivity, and Channel-Control Security Policies",1992,SRI International,url:https://www.csl.sri.com/papers/csl-92-2
+clarkson2010,article,Hyperproperties,2010,Journal of Computer Security,doi:10.3233/jcs-2009-0393
+alpern1985,article,Defining liveness,1985,Information Processing Letters,doi:10.1016/0020-0190(85)90056-0
+necula1997,inproceedings,Proof-carrying code,1997,Proceedings of the 24th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages,doi:10.1145/263699.263712
+hopcroft1973,article,An $n^{5/2} $ Algorithm for Maximum Matchings in Bipartite Graphs,1973,SIAM Journal on Computing,doi:10.1137/0202019
+karpvazirani1990,inproceedings,An optimal algorithm for on-line bipartite matching,1990,Proceedings of the 22nd Annual ACM Symposium on Theory of Computing,doi:10.1145/100216.100262
+pnuelirosner1989,inproceedings,On the synthesis of a reactive module,1989,Proceedings of the 16th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages,doi:10.1145/75277.75293
+abadi1991,article,The existence of refinement mappings,1991,Theoretical Computer Science,doi:10.1016/0304-3975(91)90224-p
+lynch1995,article,Forward and Backward Simulations: I. Untimed Systems,1995,Information and Computation,doi:10.1006/inco.1995.1134
+dealfaro2001,inproceedings,Interface automata,2001,Proceedings of the 8th European Software Engineering Conference and 9th ACM SIGSOFT International Symposium on Foundations of Software Engineering,doi:10.1145/503209.503226
+infinitegames2002,book,"Automata, Logics, and Infinite Games: A Guide to Current Research",2002,Springer,doi:10.1007/3-540-36387-4
+suh2004partition,article,Dynamic Partitioning of Shared Cache Memory,2004,The Journal of Supercomputing,doi:10.1023/b:supe.0000014800.27383.8f
+nesbit2006fair,inproceedings,Fair Queuing Memory Systems,2006,Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture,doi:10.1109/micro.2006.24
+reineke2011pret,inproceedings,{PRET} {DRAM} Controller: Bank Privatization for Predictability and Temporal Isolation,2011,Proceedings of the 7th IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis,doi:10.1145/2039370.2039388
+mutlu2008parbs,inproceedings,Parallelism-Aware Batch Scheduling: Enhancing both Performance and Fairness of Shared DRAM Systems,2008,Proceedings of the 35th Annual International Symposium on Computer Architecture,doi:10.1109/isca.2008.7
+wassel2013surfnoc,inproceedings,{SurfNoC}: A Low Latency and Provably Non-Interfering Approach to Secure Networks-On-Chip,2013,Proceedings of the 40th Annual International Symposium on Computer Architecture,doi:10.1145/2485922.2485972
+leboudec2001,book,Network Calculus: A Theory of Deterministic Queuing Systems for the Internet,2001,Springer,doi:10.1007/3-540-45318-0

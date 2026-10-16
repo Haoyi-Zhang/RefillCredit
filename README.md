@@ -7,6 +7,10 @@ checks when every eligible-free-slot policy works for the declared independent
 one-credit-per-tenant language. It includes certificate/trace checkers, a
 small-state oracle, exact grids and two-level tenant-local controllers.
 
+## Manuscript diagrams
+
+The self-contained `figures/draw_diagrams.py` exports three embedded-font vector PDFs directly with Matplotlib 3.11.2. Run `python -B figures/draw_diagrams.py --check` to check the illustrated 3-versus-4 capacity minimum, label bounds and deterministic fresh exports. `--output-dir PATH` selects the destination; the complete project's paper Makefile supplies `../paper/figures`. Drawing is separate from the standard-library scientific workflow below.
+
 ## Environment and quick checks
 
 The complete reproduction requires Python 3.10 or later on a POSIX system with
