@@ -29,8 +29,8 @@ def run() -> dict:
 
     keys = [row["citation_key"] for row in manifest]
     identifiers = [row["persistent_identifier"] for row in manifest]
-    if len(manifest) != 32:
-        errors.append(f"expected 32 bibliography rows, found {len(manifest)}")
+    if len(manifest) != 50:
+        errors.append(f"expected current inventory of 50 bibliography rows, found {len(manifest)}")
     if len(keys) != len(set(keys)):
         errors.append("duplicate bibliography citation key")
     if len(identifiers) != len(set(identifiers)):
