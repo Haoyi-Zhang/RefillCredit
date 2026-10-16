@@ -72,8 +72,10 @@ report paths are rejected. Parts 0--5 cover the finite game/controller families;
 part 6 rechecks pilots, runs the small-state oracle and 68-test suite, regenerates
 seven CSVs and reconciles their numerical claims.
 
-`results/current/reproduction-*.json` retains the native Ubuntu seven-part replay
-(40 commands and 78 regenerated files). Older top-level records and exploratory
+`data/native-replay.zip` distributes the native Ubuntu seven-part replay under
+`results/current/` (40 commands and 78 regenerated files). From the artifact root,
+extract it with `python -m zipfile -e data/native-replay.zip .` to inspect the
+retained reports and raw files without rerunning experiments. Older top-level records and exploratory
 pilot timings remain separate observations. The scientific workflow runs all
 parts and the portable regression on Ubuntu 24.04, with a whole-run 4-GiB,
 zero-swap, four-CPU-equivalent, 600-second ceiling and raw-output upload.
