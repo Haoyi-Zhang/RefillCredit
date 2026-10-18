@@ -9,7 +9,7 @@
   "calibration_rows": 22,
   "citation_resource_mappings": 50,
   "errors": [],
-  "external_resource_rows": 61,
+  "external_resource_rows": 60,
   "persistent_identifiers_unique": 50,
   "scope": "standalone local ledger consistency; remote publisher metadata was inspected separately and recorded in external_resources.csv"
 }
