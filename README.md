@@ -118,3 +118,7 @@ results. Established matching, game and self-composition principles remain
 attributed in `proofs/source-boundary.md`. Original code, model inputs and
 generated outputs use the accompanying MIT `LICENSE`; third-party research
 texts, figures, software internals and datasets are not copied.
+
+## Source repository
+
+[RefillCredit](https://github.com/Haoyi-Zhang/RefillCredit)
