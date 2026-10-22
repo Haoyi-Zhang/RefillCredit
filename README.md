@@ -75,7 +75,12 @@ seven CSVs and reconciles their numerical claims.
 `data/native-replay.zip` distributes the native Ubuntu seven-part replay under
 `results/current/` (40 commands and 78 regenerated files). From the artifact root,
 extract it with `python -m zipfile -e data/native-replay.zip .` to inspect the
-retained reports and raw files without rerunning experiments. Older top-level records and exploratory
+retained reports and raw files without rerunning experiments. This native replay
+preserves an earlier bibliography snapshot: 32 cited entries and 43 external-resource
+rows, versus 50 and 60 in the current ledgers. The other 77 regenerated files match
+current scientific values after the documented timing/RSS exclusions; the archived
+reference-ledger report is historical, not a regeneration of the current bibliography.
+Older top-level records and exploratory
 pilot timings remain separate observations. The scientific workflow runs all
 parts and the portable regression on Ubuntu 24.04, with a whole-run 4-GiB,
 zero-swap, four-CPU-equivalent, 600-second ceiling and raw-output upload.
